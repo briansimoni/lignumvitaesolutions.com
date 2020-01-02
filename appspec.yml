@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /themes/industrial-child
-    destination: /home/bitnami/wordpress/wp-content/industrial-child
+  - source: /themes
+    destination: /opt/bitnami/apps/wordpress/htdocs/wp-content/industrial-child
 hooks:
   BeforeInstall:
     - location: scripts/date.sh
