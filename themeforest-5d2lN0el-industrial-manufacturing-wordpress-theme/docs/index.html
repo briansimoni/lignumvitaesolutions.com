@@ -1,0 +1,3258 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AnpsThemes - Industrial WordPress Theme Documentation</title>
+
+    <!-- Stylesheets -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link href="css/prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body id="intro">
+
+    <!-- Main Navigation -->
+    <aside>
+    <ul id="main-navigation">
+    </ul>
+</aside>
+    <div class="container">
+
+        <!-- Preface -->
+        <section>
+    <h2 style="display: none;">Intro</h2>
+    <ul class="preface">
+        <li><td colspan="2"><h1><strong>Industrial</strong> WordPress Theme</h1></li>
+        <li>Features: WordPress, HTML5, CSS3, Multi-purpose, Revolution slider, Custom colors</li>
+        <li>Type: WordPress Theme</li>
+        <li>Created: 13/04/2016</li>
+        <li>By: AnpsThemes</li>
+        <li>Latest Version: 1.0</li>
+        <li>Support: <a href="http://anpsthemes.freshdesk.com" target="_blank">anpsthemes.freshdesk.com</a></li>
+    </ul>
+</section>
+
+<p>Hello! First of all we would like to thank you for purchasing our theme! :)
+If you have any questions that are beyond the scope of this help file, please feel free to send your question on <a href="http://anpsthemes.freshdesk.com" target="_blank">anpsthemes.freshdesk.com</a></p>
+<p>This file will teach you how to set up and use our theme.</p>
+<p>This file is really extensive so you might think the theme is hard to use, actually it's not, you probably just might jump in the code and explore everything yourself, this file is more of a reference work if you do not know what to do.</p>
+<p>Have fun using our theme!</p>
+<p>Best regards,<br/>AnpsThemes</p>
+
+<section>
+    <h2 id="jump-start">Jump start</h2>
+    <p>If you want to set the theme up and running as quickly as possible, please follow this check list:</p>
+    <ol>
+        <li>Create a fresh installation of wordpress</li>
+        <li>Upload the theme through WP dashboard in Appearance -> themes -> Add New -> Upload Theme</li>
+        <li>When you activate the theme, a notice will appear to install required plugins. Install them.</li>
+        <li>After plugins are installed, visit Theme options -> Dummy Content and install your prefered demo.</li>
+        <li>Demo install might take few minutes, after it is done, just edit the pages, add your content and replace placeholders with your own images.</li>
+    </ol> 
+    <br/>
+
+    After you've imported the demo content, you can adjust and alter all elements to your liking, by  
+    <ul>
+        <li>
+           <a href="#theme-options">Editing Theme Options settings</a> 
+        </li> 
+        <li>
+            <a href="#visual-composer">using Visual Composer</a>
+        </li>
+        <li>setting page specific options in Wordpress dashboard</li>
+
+    </ul>
+</section>
+
+        <!-- Page Elements -->
+        <section>
+    <h2>Page Elements</h2>
+    <h3>Theme Options Page Elements</h3>
+    <p>First lets introduce elements that are available to you throughout the site.
+
+    <br />
+    <!-- start Style Settings -->
+    <ol>
+        <li><strong>Top Bar: </strong> Top Bar consists of brief but important company data such as telephone number, social links, email and opening hours. You can:
+            <br />
+            <img src="assets/img/top-bar.png" alt="theme style" />
+            <br />
+            <ul>
+                <li>Customize background color, text color inside <a href="#setting-the-colors">Theme options -> Color management</a>
+                </li>
+                <li>Enable or disable Top Bar inside <a href="#header-options">Theme options -> Header options</a>
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li><strong>Logo: </strong> Logo is your brand indetity. It should be clearly visible on all pages.
+            <br />
+            Our theme supports multiple Logos. In theme options -> Logos & Media you can upload General logo, Front page logo, Sticky logo and Mobile logo. You can also set the height of logos here.
+            On each page separatly this options can be overridden if needed. 
+            <br /><br />
+        </li>
+        <li><strong>Main Menu: </strong> is the main navigation. You can:
+            <br />
+            <br />
+            <ul>
+                <li>Change font type inside <a href="#typography">Theme options -> Typography</a>.</li>
+                <li>Change text color inside <a href="#header-options">Theme options -> Header options</a>.</li>
+                <li>Change header types in <a href="#header-options">Theme options -> Header options</a>.</li>
+                <li>Center the menu inside <a href="#header-options">Theme options -> Header options</a>.</li>
+                <li>Enable sticky menu inside <a href="#header-options">Theme options -> Header options</a>.</li>
+                <li>Disable/enable search icon on desktop/mobile inside <a href="#header-options">Theme options -> Header options</a>.</li>
+            </ul>
+            <br />
+        </li>
+        <li><strong>Page Heading: </strong> Page Heading can be turned on and off in Theme options -> page layout. This options can also be overriden on each page separatly.
+            <br />
+            <br />
+            <ul>
+                <li>Change the font size inside <a href="#typography">Theme options -> Typography</a>.</li>
+                <li>Disable page title, breadcrumbs and background inside <a href="#page-layout">Theme options -> Page Layout</a>.</li>
+                <li>Disable only breadcrumbs inside <a href="#page-layout">Theme options -> Page Layout</a>.</li>
+                <li>Choose default Page Heading background inside <a href="#header-options">Theme options -> header options</a>.</li>
+            </ul>
+            <br />
+        </li>
+
+        <li><strong>Content: </strong>
+            <br />
+            <br />
+            <ul>
+                <li>Read about Adding Blog Posts inside <a href="#adding-blog-posts">Adding Blog Posts</a>
+                </li>
+                <li>Read about Adding Portfolio Posts inside <a href="#adding-portfolio-posts">Adding Portfolio Posts</a>
+                </li>
+                <li>Read about Visual Composer Elements inside <a href="#visual-composer">Visual Composer</a>
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li value="9"><strong>Footer: </strong> Footer is meant for displaying additional but important information, such as sitemap, contact forms, company information, navigation, recent posts, social links etc. You can:
+            <br />
+            <br />
+            <ul>
+                <li>Change background and text color inside <a href="#setting-the-colors">Theme options -> Color management</a>.</li>
+                <li>Specify mobile layout of footer inside <a href="#mobile-layout">Theme options -> Page Layout</a>.</li>
+                <li>Disable footer inside <a href="#disable-footer">Theme options -> Footer options </a>.</li>
+                <li>Change footer style inside <a href="#footer-style">Theme options -> Footer options</a>.</li>
+                <li>Add footer content (widgets) inside Appearance -> widgets.</li>
+            </ul>
+            <br />
+        </li>
+        <li><strong>Copyright Footer: </strong>
+            <br />
+            <br />
+            <ul>
+                <li>Change background color inside <a href="#setting-the-colors">Theme options -> Color Management</a>.</li>
+            </ul>
+        </li>
+    </ol>
+</section>
+
+        <!-- Theme Options -->
+        <section>
+    <h2>Theme Options</h2>
+    <p>Inside Theme Options you can change almost everything. From font styles to page layout. Easily change or adjust font-sizes, colors, breadcrumbs, mobile layout, menu and footer. </p>
+    <p>Go to Theme options by clicking on Theme Options under Appearance → Theme Options.</p>
+    <img src="assets/img/theme-options1.gif" alt="theme options" />
+    <p>You can also access Theme Options by hovering or clicking on the Theme Options inside the WP Admin Bar on the top of your screen.</p>
+    <img src="assets/img/theme-options-admin-bar.jpg" alt="theme options admin bar" />
+    <br />
+    <br />
+
+    <!-- Color management -->
+    <h3> Color management</h3>
+    <p> Color management is accessed by clicking Theme options -> Color Management</p>
+
+    <h5>Predefined Color Scheme</h5>
+    <p>When you choose a color scheme, it will only fill in the options below, so you can still change each colors seperatly, without editing the predefined colors.</p>
+    <img src="assets/img/color-scheme.png" alt="color schemes" />
+    <br />
+
+    <h5>Setting the colors</h5>
+    For fine control over colors, you can modify almost each color used in the theme seperatly. Some color option change more than one element on the page at the same page, like primary color or hovers color. 
+
+    <p>You can set colors by typing in the HEX values or by clicking on the colored box, which will open interactive colorpicker.</p>
+    <img src="assets/img/theme-colors.jpg" alt="theme colors" />
+    <br />
+    <p><strong>Text Color</strong> will change the color of the raw content text.</p>
+    <p><strong>Primary Color</strong> change the color of icons, tabs upper border, text of visited page in breadcrumbs, username in comments.</p>
+    <p><strong>Hovers Color</strong> applies to all hover states.</p>
+    <p><strong>Menu Text Color</strong> applies to the text in the menu (navigation)</p>
+    <p><strong>Headings Color</strong> applies to heading across the site. It also applies for the headings in <a href="#sidebars">Sidebar</a> and previous pages in breadcrumbs.</p>
+    <p><strong>Top Bar Text Color</strong> applies to the text in the Top Bar. <a href="#top-bar">Top Bar</a> is above the logo and navigation.</p>
+    <p><strong>Top Bar Background Color</strong> changes the background color of the <a href="#top-bar">Top Bar</a> section.</p>
+    <p><strong>Footer Background Color</strong> changes the background color of the footer.</p>
+    <p><strong>Copyright Footer Background Color</strong> changes the background color of the copyright section which is a bit below the footer.</p>
+    <p><strong>Footer Text Color</strong> changes the text in the <a href="#footer">Footer</a> section.</p>
+    <p><strong>Footer Heading Text Color</strong> changes headings text color.</p>
+    <p><strong>Copyright Footer Text Color</strong> changes text color in copyright section.</p>
+    <p><strong>Page Header Background Color</strong> changes the background color of the Page Header section. Page Header is located below the Header and above the Content.</p>
+    <p><strong>Submenu Background Color</strong> changes the background color of a dropdown submenu in navigation.</p>
+    <p><strong>Submenu Text Color</strong> changes the text color of a dropdown submenu in navigation.</p>
+    
+    <p><strong>Submenu divider color</strong> changes the color of submenu divider.</p>
+    <p><strong>Text on top of primary color</strong> changes color of text where primary color is used as background (ie calendar title, mini cart in header,...)</p>
+    <p><strong>Shopping cart item number background color</strong> changes background color of items number in mini cart.</p>
+    <p><strong>Shoping cart item number text color</strong> changes color of items number in mini cart.</p>
+
+    <p></p>    
+
+    <h2 id="typography">Typography</h2>
+
+    <h5>Font family</h5>
+    <p>Specify three font types:</p>
+    <ul>
+        <li><strong>Font type 1:</strong> used for headings (we used Montserrat on our demo site, which is a font that is included inside the fonts folder)</li>
+        <li><strong>Font type 2:</strong> used as the main body font (we used PT Sans on our demo site)</li>
+        <li><strong>Navigation font type</strong> used in main navigation (we used Montserrat on our demo site)</li>
+    </ul>
+
+    <strong>Character subsets</strong>
+
+    <p>Below the Font Family you can also specify the subsets of character encoding for that specific font family. Character subsets varies from font to font (i.e. PT Sans supports Latin, Latin-ext, Cyrillic and Cyrillic-ext meanwhile Montserrat only supports latin).
+        <br />Character subset will automatically refresh when you select a different font family.</p>
+    <p>If you chose a Font, but it doesn't show some of the characters as it should chances are that this font family doesn't support the desired character subset and you should find one that does.</p>
+    <p>Since many of our fonts are included from Google Fonts, you can easily search for your perfect font by filtering the results based on the desired character subset on <a href="https://www.google.com/fonts">Google Fonts website</a>.</p>
+
+    <img src="assets/img/font_family.jpg" alt="font family" />
+
+    <p>When selecting a font family you will be able to choose a font from three groups:</p>
+    <ul>
+        <li><strong>System Fonts: </strong> here you can find all of the basic fonts, from Times New Roman to Comic Sans.</li>
+        <li><strong>Custom Fonts: </strong> here you will find all of the fonts you upload to the theme. See <a href="#upload-custom-fonts">Upload Custom Fonts</a> section for more details.</li>
+        <li><strong>Google Fonts: </strong> Our theme supports 600+ google fonts, so you have the freedom to choose whatever font you would like, but be aware that our theme uses certain font weights that may not work good with certain font families. Note that Google keeps adding new fonts, so see <a href="#update-google-fonts">Update Google Fonts</a> section for more information.</li>
+    </ul>
+    
+    <h5>Font sizes</h5>
+    <p>For fine control over theme's typography, it is possible to adjust used font sizes for:</p>
+    <ul>
+        <li><strong>Body Font Size:</strong> All the content inside body except headings, it will change also the content in the footer and top menu (14px is default)</li>
+        <li><strong>Menu Font Size:</strong> Will modify main menu (navigation) font-size. </li>
+        <li><strong>Content Headings (from h1 to h5):</strong> With these you can modify headings (ranging from h1 to h5)</li>
+        <li><strong>Page Heading:</strong> This will change font-size in page heading areas on pages</li>
+        <li><strong>Single blog page heading 1 font size</strong> This will change font-size on single blog post heading</li>
+    </ul>
+    <img src="assets/img/font-sizes.JPG" alt="font sizes" />
+
+    <p>Adjust the font-size to your desires by entering new value in the input. After that click Save Changes button at the bottom of the Theme Options panel.</p>
+
+    <h3>Update Google Fonts</h3>
+
+    <p>At the initial theme installation no fonts will be added so you will need to import them by pressing <strong>Update Google Fonts</strong> in this section. Note that the process might take a while, as there are quite a lot of font families that need to be imported.</p>
+
+    <p>If in the future you will see a new Google Font and would like to use it on your site, then import the fonts again by pressing <strong>Update Google fonts</strong>.</p>
+
+    <img src="assets/img/google-fonts.png" alt="google fonts" />
+    <br />
+
+    <h3>Custom Fonts</h3>
+
+    <p>This section allows you to add new font families. The fonts can be easily added by selecting a .zip file (you need to provide more than just one font file type, so that all browser will be able to use you font) and pressing <strong>Save all changes</strong>.</p>
+    <img src="assets/img/custom-fonts.png" alt="custom fonts" />
+    <br />
+
+
+    <!-- start Custom CSS -->
+    <h3>Custom CSS</h3>
+    <p>This section is intended for front end developers. Custom CSS section enables you to customize your site beyond theme options. Learning CSS is easy as it is not an advanced programming language. Most of the style customization can be achieved with CSS. Using tools like Firebug or browser native developer tools will help you to search for the CSS rulesets, which you can change to your liking and paste the CSS code to the custom CSS section of theme options. For learning CSS there are many resources on the web. You can start here: <a target="_blank" href="http://www.w3schools.com/css/">w3schools</a>.</p>
+    <!-- end Custom CSS -->
+
+
+    <h3>Page Layout</h3>
+    <p>Inside Page Layout you will find options for managing page layout like boxed layout, default sidebars on pages and posts, page titles, breadcrumbs and background (Page Heading), you can enable page comments here for pages and set the blog layout.</p>
+    <img src="assets/img/page-layout.jpg" alt="page layout" />
+
+    <h4>Boxed</h4>
+    <p>The default value for the page layout is Full Layout, but you can also select the Boxed version.
+        <br /> Once you checkmark the Boxed version you will be able to choose from nine predefined patterns or a custom background, which you can set to either a stretched or tilled image.
+        <br /> Tilled is best used for adding your own patterns or you can pick a solid color.</p>
+    <img src="assets/img/boxed.png" alt="boxed" />
+    
+    <h4>Page sidebars</h4>
+    <p>This will change the default left and right sidebar value on all pages. Sidebar can still be overriden on each page individually.</p>
+    
+    <h4>Post sidebars</h4>
+    <p>This will change the default left and right sidebar value on all posts. Sidebar can still be overriden on each post individually.</p>
+    
+    <h4>Disable page title, breadcrumbs and background</h4>
+    <p>This options will hide the Page Heading section (below main menu on single pages such as about us, blog post single etc.)</p>
+
+    <h4>Heading</h4>
+    <p>Here you can manage global display option for page title and breadcrumbs.</p>
+
+    <h4>Page comments</h4>
+    <p>Here you can enable/disable comments on pages.</p>
+
+    <h4>Blog layout</h4>
+    <p>Here you can manage default display on blog/category/tag/archive pages.</p>
+
+
+ <h3>Page Setup</h3>
+    <p>
+        Here you can set up 404 page, excerpt length, Portfolio style and slug, mangae display of meta data like categories, author, tags and date on archive pages and single posts.
+    </p>
+
+
+    <h4>Excerpt length</h4>
+    <p>
+        Default excerpt length is set to 40 characters. You can change this value if you want to change default excerpt length on archive pages.
+    </p>
+    <h4>404 error page</h4>
+    <p>
+        When user visits an url on your site which does not exists in the database, error page is displayed. Here, you can set which page is displayed in this case.
+    </p>
+    <p>Simply select a page from a drop down of already added pages, which will be displayed on 404 errors.</p>
+
+    <h4>Portfolio slug</h4>
+    <p>Default slug in url is portfolio, here you can change it to any other word.</p>
+    
+    <h4>Portfolio Single Style</h4>
+    
+    <p>Portfolio single is specific page for each item in your portfolio. This page is meant to describe your project, product or service more thoroughly, with plenty of pictures and content.</p>
+    <p>Changing portfolio single style will apply to all portfolio single pages.</p>
+    <p>There are two types of Portfolio Single Styles.</p>
+    <ul>
+        <li><strong>Style 1:</strong> Big images in the first column on the left and content in the second column on the right.</li>
+        <li>Images that are displayed in the first column insert inside WP admin panel with the "Gallery Images" panel on your right.</li>
+        <li><strong>Style 2:</strong> Slider on the top with content below.</li>
+        <li>Images that are displayed above the content in slider insert with the "Gallery Images" panel on your right.</li>
+    </ul>
+    <p>For creating Portfolio Posts please refer to <a href="#adding-portfolio-posts">Adding Portfolio Posts</a>
+    </p>
+
+
+    <h4>Portfolio single footer</h4>
+    <p>The content you insert in this textarea is <b>shown below the portfolio content and above the footer</b> on all single portfolio pages.</p>
+    <img src="assets/img/portfolio-single-footer.png" alt="portfolio single footer" />
+    <hr>
+
+
+
+    <h4>POST META ON BLOG / CATEGORIES / TAG / ARCHIVE PAGES</h4>
+
+    <p>In this section you can set what post meta data you want to be displayed. Just add a checkmark next to the Comments, Categories, Author and Date, if you want to display them.</p>
+
+
+    <h4>POST META ON SINGLE POST</h4>
+
+    <p>In this section you can set what post meta data you want to be displayed. Just add a checkmark next to the Comments, Categories, Author, Date and Tags, if you want to display them.</p>
+
+    <h3 id="header-options">Header options</h3>
+
+    <p>
+        This is the most extensive theme option page. You can set here every aspect of header and navigation display.
+    </p>
+
+    <h4>MENU LAYOUT OPTIONS</h4>
+    By clicking on one of the two images, you can chose between the horizontal and vertical navigation.
+
+    <img src="assets/img/vertical-menu.png" alt="menu type" />
+    <p>By selecting one option, additional settings panel for this option will be displayed.</p>
+    <h5>Horizontal menu</h5>
+
+    <p>
+        horizontal menu is default setting for the theme. If selected, you can than choose between top and bottom menu on the home page and set the text color, background color, link hover color, set the centered menu, top bar color, and header transparency.
+    </p>
+    <p>
+        After setting the option for the front page, you can set this setting as global, so it will be used on other pages aswell. Or you can set the global options independently.
+    </p>
+    <p>
+        Not all options are compatible, the interface will dimm the options, that are not compatible with selected choices. For example Top bar color can ony be set here if you choose transparent header.
+    </p>
+
+    <h5>Vertical menu</h5>
+    <p>
+        When you set the global menu option to "Vertical menu", additional options for vertical menu are displayed.
+        You can set Text color in the menu, Background color and link hover color. You can also upload custom Background image, which will be displayed in vertical menu.
+    </p>
+
+
+    <h5>GLOBAL HEADER OPTIONS</h5>
+
+    <p>Here you can turn on or off display of top bar, Above navigation menu bar, set sticky menu behaviour, turn on search icon on the navigation separatly on mobile and desktop display and turn on/off the mega menu. If you are using third part mega menu plugin, you should turn this off.</p>
+    
+    <h4>HEADING BACKGROUNDS</h4>
+
+    <p>
+        Here you can set the global option for page headings and Search page background.
+    </p>
+    <p>
+        The selected background will apply globaly over all pages. On each page you can upload its own background which will override the current setting in this panel for that page alone.
+    </p>
+    <p>
+        Selected Search page background will be the background color of search results page.
+    </p>
+
+    <h3 id="footer-options">Footer options</h3>
+    In this section you can set various options, which control the display of footer.
+
+    <h4>Footer</h4>
+    <p>Here you can enable or disable footer display globaly.</p>
+    <p>Further you can choose footer and prefooter style. You can set how many columns do you want displayed in footer/prefooter.</p>
+    <p>After you've set the columns, you can add widgets to footer sidebars.</p>
+
+    <h4>Desktop style</h4>
+    <p>You can choose between classic and fixed footer on desktop displays. This modifies way footer appears when scrolling down the page.</p>
+    
+    <h4>Mobile layout</h4>
+    <p>On mobile footer can be shown eider on 1 or 2 columns. Even if two columns are selected, it will gracefully still default to one column on really small screens. </p>
+    <p>This option determines the copyright footer widget areas. Can be set to either 1 columns (which is centered aligned) or 2 columns.</p>
+
+
+
+    <h3>Woocommerce</h3>
+    <p>
+        This is woocommerce specific, if you don't have woocommerce e-shop installed, they are irellevant. 
+    </p>
+    <h5>Display shopping cart icon in header?</h5>
+    <p>You can define here if you want the mini cart to be displayed in main menu. You can choose among three options:
+    <ul>
+        <li>Never display</li>
+        <li>only on Woo pages</li>
+        <li>Display everywhere</li>
+    </ul>
+    If you choose the first option Cart will not be displayed. You can still add the cart as a widget into the top bar or above navigation bar. <br><br>
+    The second option will display the cart only on woocommerce related pages, such as product page or shop page,... <br><br>
+    The last option will display cart on every page.
+    </p>
+
+    <h5>Layout</h5>
+    <p>
+        Here you can choose the number of products displayed in one row on a shop page. This option allows you to choose between 3 or 4 products in one row.
+    </p>
+
+
+    <h3>Logos and Media</h3>
+
+    <p>
+        In this section you can set different logos and their size (height). 
+    </p>
+    <h5>Logo</h5>
+    <p>This is the general logo. If you have only one version of your logo, you don't need to upload any other logos to the page. After general logo is defined, it will be used everywhere.</p>
+    <p>For fine control over which logo appears in which case, there are additional logo options. </p>
+    <h5>Front page logo</h5>
+    <p>You can specify logo for front page only. This is usefull if you have slider on the front page and header is set to transparent. In this case the general logo might not be perfect in terms of contrast. </p>
+    <h5>Sticky logo</h5>
+    <p>
+        Sticky logo appears in sticky menu.
+    </p>
+    <h5>Transparent Sticky logo</h5>
+    <p>Transparent sticky logo appears on sticky menu, if it is set to transparent header.</p>
+
+    <h5>Mobile logo</h5>
+    <p>This logo will appear on mobile devices. If no specific logo is defined, the general logo will be displayed.</p>
+
+    <p>Logos can be also defined on every page sparately. If the logo is defined on a specific page, than this setting will override settings in theme options.</p>
+
+    <h3>Dummy content</h3>
+
+    <p>Importing demo content with one click dummy content import is the fastest way to get you started with your new theme. After importing the demo, you just change images and text. You can also learn how to setup the pages from these examples.</p>
+
+    </p>
+    <p>How to import Dummy Content</p>
+    <strong>Note: install and activate all of the required plugins (Visual Composer, Revolution Slider, Contact Form 7 etc before importing demo content.).</strong>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Appearance → Theme Options in the WordPress Admin Panel</li>
+        <li><strong>Step 2: </strong>click "Dummy Content"</li>
+        <li><strong>Step 3: </strong>Select a demo from the list and click the import dummy content button.</li>
+    </ul>
+
+    <img src="assets/img/dummy-content.jpg" alt="dummy content" />
+    <br />
+
+    
+    <br />
+    <br />
+
+    <p><strong>Important:</strong> If you are having trouble inserting dummy content and are receiving server errors, you will probably need to set your file permissions on folder wp-content/uploads ( if you don't have the folder, create it manually and set the permissions only on this folder ).</p>
+    <p><strong>Automatic installation (inside Theme Options):</strong>
+
+    <p><strong>Manual installation (with WordPress Importer):</strong>
+    </p>
+    <p>Installing the WordPress Importer:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Visit Tools → Import in the WordPress dashboard
+            <br /><img src="assets/img/import.jpg" alt="import" />
+        </li>
+
+        <li><strong>Step 2: </strong>Click on the WordPress link in the list of importers
+            <br /><img src="assets/img/wordpress-import.jpg" alt="wordpress import" />
+        </li>
+
+        <li><strong>Step 3: </strong>Click "Install Now"
+            <br /><img src="assets/img/install.jpg" alt="install" />
+        </li>
+
+        <li><strong>Step 4: </strong>Finally click "Activate Plugin & Run Importer"</li>
+    </ul>
+
+    <p>In our theme files you will find a .xml file (under <i>anps-framework/classes/importer/dummy.xml</i>). Use that file in the next step where it says: "Choose a WXR (.xml) file to upload, then click Upload file and import." and click on Upload file and import. In the next step you need to assign all the posts/page to a existing user or create a new user. In this step also be sure to have the Download and import file attachments checked, then click on the Submit button and you are done!</p>
+    <p><strong>Important: </strong>Please note that theme options, widgets, slider won't be installed!</p>
+    <!-- end dummy content -->
+
+    <h3>Theme upgrade</h3>
+    <p>We tend to release upgrades of our themes quite a lot. Upgrades usually bring new features and bugfixes. By creating an API key on themeforest you can automate the upgrade procedure.</p>
+    <p>Read more about Theme Upgrade under <a href="#theme-options-upgrade">Upgrading the Theme</a>.</p>
+    <p>If you are customizing the theme and you are changing the theme files, we suggest creating a <a href="https://codex.wordpress.org/Child_Themes" target="_blank">child theme</a>. Using child themes for customization enables safe upgrading of your theme in the future, without loosing any of custom changes.</p>
+</section>        
+        <!-- Customizer -->
+        <section>
+    <h2>Customizer</h2>
+    You can also change some theme options settings in customizer. You can find it in Appearance -> Customize and than select Theme options. Everything saved in Customizer will be synchronized with theme options and vice versa.
+    If you want to know more about theme options settings, you can read it under <a href="#theme-options">Theme options section</a>.
+</section>
+        <!-- MegaMenu -->
+        <section>
+
+    <h2>Megamenu</h2>
+
+    <p>To create a megamenu you will first need to go to Appearance → Menus and open the Screen Options and checking the CSS Classes and Description options (you can also check the Product Categories if you intend to use them). Click on Save Menu to save the settings.</p>
+
+    <p>Then you need to assign a megamenu class to the parent element - the element at the top most of the structure (in the below examples this means to the Shop element).</p>
+
+    <h3>Adding links</h3>
+
+
+    <p>To add a group of links, you need to first add a parent element that will contain the title.</p>
+
+    <p>When adding the parent element set the URL to "#", the Navigation Label to the desired title (in our example we named it Links) and assign a column layout class (<span class="class">.col-md-4</span> for example) class to it, so it changes it to a heading.</p>
+
+    <h3>Adding Text</h3>
+
+
+    <p>Create a new element and set the URL to "#", the Navigation Label to the desired title (in our example we named it Links), assign a no-link class to it, so it changes it to a heading and insert you text in the description area.</p>
+
+    <h3>Adding images</h3>
+
+    <p>You can use the [image url="#" target="_blank" alt="Alternative text"]Image URL[/image] shortcode inside the description area to add images.</p>
+
+
+    <h3>Notices</h3>
+    <p>To use all of our advanced menu styling, it is suggested that you ckeck the Primary Navigation checkbox in your Menu settings after creating a new menu in Apperance -> Menus</p>
+
+</section>
+        <!-- Visual Composer -->
+        <section>
+    <h2>Visual Composer</h2>
+    <!-- <p>If you do not want to use our Shortcode Manager, then you can install Visual Composer, which allows you to add content using a visual editor - you do not need to write the shortcodes by hand.</p> -->
+    <p>Visual Composer is a drag-and-drop builder that comes included with our theme.</p>
+    <h3>Install Visual Composer</h3>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Plugins" inside WP Admin Panel.</li>
+        <li><strong>Step 2: </strong>Install and Activate WPBakery Visual Composer plugin.</li>
+        <li><strong>Step 3: </strong>Go to desired page inside "Pages → All Pages" or "Pages → Add New" if you wish to add a new page.</li>
+        <li><strong>Step 4: </strong>Click on the "Backend Editor" to enter the Visual Composer editor.
+            <br /> <img src="assets/img/back-end-editor.jpg" alt="backend editor" />
+        </li>
+
+        <li><strong>Step 5: </strong>Click on the big "+" icon below the Page or Post title to add new element.
+            <br /><img src="assets/img/vc-editor.jpg" alt="vc editor" />
+        </li>
+
+        <li><strong>Step 6: </strong>New window pops-up with wide range of different elements that are explained in the next chapter.
+            <br /> <img src="assets/img/vc-elements.jpg" alt="vc elements" />
+        </li>
+
+    </ul>
+
+    <strong>Note: on some features (such as post, product, team and portfolio) VC is disabled by default. To enable Visual Composer for these features go to "Visual Composer → General Settings" and check the checkboxes of desired pages.</strong>
+    <br />
+    <img src="assets/img/visual-composer-general-settings.jpg" alt="visual composer general settings" />
+    <br />
+    <br />
+
+    <h3>Theme Elements</h3>
+    <p>These are our custom designed Visual Composer elements.</p>
+    <h3>Blog element</h3>
+
+    <p>This element is used for displaying blog posts. It consists of blog posts that are added in "Posts" → "Add New". For adding blog posts click <a href="#adding-blog-posts">here</a>.</p>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Blog Categories: </strong>displays only blog posts in that specific category</li>
+        <li><strong>Posts per Page: </strong>specifies how many posts should be displayed on a single page</li>
+        <li><strong>Order By: </strong>displays blog posts based on the specified order</li>
+        <li><strong>Order: </strong>displays blog posts based on the specified order (ascending or descending)</li>
+        <li><strong>Columns: </strong>The number of posts in a row. Can be set to 1, 2, 3 or 4.
+        </li>
+    </ul>
+
+
+    <!-- PORTFOLIO -->
+
+
+    <h3>Portfolio element</h3>
+    <p>Portfolio consists of portfolio posts that are added in "Portfolio" → "Add New". More about adding portfolio posts you can see <a href="#portfolio-items">here</a>.</p>
+    <p>How to Add Portfolio element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Here you can specify settings for Portfolio.
+            <br /><img src="assets/img/portfolio-vc-settings.jpg" alt="portfolio vc settings" />
+        </li>
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Number of portfolio posts: </strong>displays desired number of portfolio posts</li>
+        <li><strong>Show in Row: </strong>displays portfolio posts in desired number of rows</li>
+        <li><strong>Portfolio Categories: </strong>only displays portfolio posts from specified category</li>
+        <li><strong>Filter: </strong>adds feature to filter portfolio posts based on their category
+            <ul>
+                <li><strong>ON: </strong> displays filter</li>
+                <li><strong>OFF: </strong> does not display filter</li>
+            </ul>
+        </li>
+        <li><strong>Order by: </strong>displays portfolio based on the specified order
+            <ul>
+                <li><strong>Default: </strong> displays portfolio posts based on their position inside "Portfolio" in WP Admin Panel</li>
+                <li><strong>Date: </strong> displays portfolio posts based on their date of publish</li>
+                <li><strong>ID: </strong> displays portfolio posts based on their ID</li>
+                <li><strong>Title: </strong> displays portfolio posts based on their title (alphabetically)</li>
+                <li><strong>Name: </strong> displays portfolio posts based on their name</li>
+            </ul>
+        </li>
+        <li><strong>Order: </strong>displays blog posts based on the specified order (ascending or descending)
+            <ul>
+                <li><strong>ASC: </strong>Ascending order, displays portfolio posts from bottom to top (based on their position inside "Portfolio" list in WP Admin Panel)</li>
+                <li><strong>DESC: </strong>Descending order, displays portfolio posts from top to bottom (based on their position inside "Portfolio" list in WP Admin Panel)</li>
+            </ul>
+        </li>
+        <li><strong>Mobile view: </strong>displays portfolio in specified number of columns when viewing website with mobile device
+            <ul>
+                <li><strong>2 column: </strong>displays portfolio in 2 column grid when viewing with mobile device</li>
+                <li><strong>1 column: </strong>displays portfolio in one column grid when viewing with mobile device</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- TEAM -->
+
+    <h3>Team element</h3>
+    <p>Team element is used for displaying team members/employees on your website. Team consists of team items that are added in "Team" → "Add New".</p>
+    <ol>
+        <li>Team Item: is a single item inside the Team element.</li>
+        <li>Featured Image: add feature image by adding an image to the "Featured Image" panel on the right (on the Edit Item page).</li>
+        <li>Team Item Title: add title by entering text in the upper input area on the "Edit Item" page.</li>
+        <li value="3">Team Item Subtitle: add subtitle by entering text in the "Team Subtitle" panel on the bottom (on the Edit Item page).</li>
+        <li>Team Item Description: add description by entering text in the main textarea on the "Edit Item" page.</li>
+    </ol>
+    <img src="assets/img/team-item.jpg" alt="team item" />
+    <p>How to Add Team element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Team" element from the list
+            <br /> <img src="assets/img/team-vc.jpg" alt="team vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Team.
+            <br /><img src="assets/img/team-vc-settings.jpg" alt="team vc settigns" />
+        </li>
+        <li>You can define:
+            <ul>
+                <li><strong>Team Categories: </strong>only "all" option available.</li>
+                <li><strong>Number of items in column: </strong>enter a number of team items to be displayed in a single column</li>
+                <li><strong>Number of Team Members: </strong>enter number of team members to be displayed (if you want all than enter -1)</li>
+                <li><strong>Team Member ID's: </strong>enter id of team items you would like to be displayed. Seperate numbers with comma.</li>
+            </ul>
+        </li>
+        <li><strong>Step 5: </strong> Click "Save Changes" and team element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/team-vc-element.jpg" alt="team vc element" />
+
+
+    <!-- RECENT BLOG -->
+
+    <h3>Recent Blog element</h3>
+    <p>Recent Blog is used for displaying recent blog posts. It consists of blog posts that are added in "Posts" → "Add New".</p>
+    <p>You can read more about Adding Blog Posts <a href="#adding-blog-posts">here</a>.</p>
+    <p>How to Add Recent Blog element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Recent Blog" element from the list</li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Recent Blog element.
+            <br /><img src="assets/img/recent-blog-vc-settings.jpg" alt="recent blog vc settings" />
+        </li>
+        <li>You can define:
+            <ul>
+                <li><strong>Title: </strong>recent blog title</li>
+                <li><strong>Number of Blog Posts: </strong>define how many recent blog posts are dispayed on a page.</li>
+                <li><strong>Number in row: </strong>you can select between 3 and 4 columns.</li>
+                <li><strong>Slider: </strong>you can enable or disable slider.</li>
+                <li><strong>Content length: </strong>by default it is set on 130 characters.</li>
+            </ul>
+            <li><strong>Step 5: </strong> Click "Save Changes" and Recent Blog element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/recent-blog-vc-element.jpg" alt="recent blog vc element" />
+
+    <!-- RECENT PORTFOLIO -->
+
+    <h3>Recent Portfolio element</h3>
+    <p>Recent Portfolio is used for displaying recent portfolio posts in grid. It consists of portfolio posts that are added in "Portfolio" → "Add New".</p>
+    <p>Read more about Adding Portfolio Posts <a href="#adding-portfolio-posts">here</a>.</p>
+
+    <!-- HOW TO ADD -->
+    <p>How to Add Recent Portfolio element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Recent Portfolio" element from the list</li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Recent Portfolio element.
+            <br /><img src="assets/img/recent-portfolio-vc-settings.jpg" alt="recent portfolio" />
+        </li>
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Number of portfolio posts: </strong>enter number of recent portfolio posts</li>
+        <li><strong>Portfolio categories: </strong>only display portfolio posts from specific category</li>
+        <li><strong>Mobile view: </strong>define how to display portfolio when viewing with mobile device
+            <ul>
+                <li><strong>2 column: </strong>display portfolio in two columns when viewing with mobile device</li>
+                <li><strong>One column: </strong>display portfolio in one coumn when viewing with mobile device</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong> Click "Save Changes" and Recent Portfolio element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/recent-portfolio-vc-element.jpg" alt="recent portfolio vc element" />
+    
+    <!-- FEATURED CONTENT -->
+    <h3>Featured content element</h3>
+    <p>You can create own featured content which is below slider or independent element. We suggest you to use 3 featured elements for best effort.</p>
+    <img src="assets/img/featured_content.jpg" alt="featured content element" />
+    <br />You can add next options:
+    <ul>
+        <li><strong>Title: </strong>title of featured content.</li>
+        <li><strong>Image: </strong>image of featured content.</li>
+        <li><strong>Content: </strong>text of featured content.</li>
+        <li><strong>Link: </strong>link of button (you need to have button text filled).</li>
+        <li><strong>Button text: </strong>text of button.</li>
+        <li><strong>Position image above: </strong>featured content will be above slider or you can use it as independent element.</li>
+    </ul>
+    <!-- TWITTER -->
+
+    <h3>Twitter element</h3>
+    <p>Twitter element displays your posts on twitter and adds the "follow us" button. It also includes background image or solid background with parallax effect that can be turned on and off.</p>
+
+    <!-- HOW TO ADD -->
+    <p>How to Add Twitter element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Twitter" element from the list
+            <br /> <img src="assets/img/twitter-vc.jpg" alt="twitter vc" />
+        </li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Twitter element.
+            <br /><img src="assets/img/twitter-vc-settings.jpg" alt="twitter vc settigns" />
+        </li>
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Slug: </strong>this is used for one page navigation and the parallax effect</li>
+        <li><strong>Title: </strong>enter Twitter title</li>
+        <li><strong>Parallax: </strong>enable or disable parallax feature
+            <ul>
+                <li><strong>True: </strong>Parallax feature enabled</li>
+                <li><strong>False: </strong>Parallax feature disabled</li>
+            </ul>
+        </li>
+        <li><strong>Parallax Overlay: </strong>enable or disable parallax feature
+            <ul>
+                <li><strong>True: </strong>Parallax overlay enabled</li>
+                <li><strong>False: </strong>Parallax overlay disabled</li>
+            </ul>
+        </li>
+        <li><strong>Background Image URL: </strong>insert URL linking to an image</li>
+        <li><strong>Background Image: </strong>insert background image from Media Library</li>
+        <li><strong>Background color: </strong>select solid color background</li>
+        <li><strong>Twitter Username: </strong>enter your Twitter username</li>
+
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong> Click "Save Changes" and Twitter element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/twitter-vc-element.jpg" alt="twitter vc element" />
+
+
+    <!-- ALERT -->
+
+    <h3>Alert element</h3>
+    <p>Alert element displays alert box.</p>
+    <img src="assets/img/alert.jpg" alt="alert" />
+
+    <!-- HOW TO ADD -->
+    <p>How to Add Alert element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Alert" element from the list</li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Alert element.
+            <br /> <img src="assets/img/alert-vc-settings.jpg" alt="alert vc settigns" />
+        </li>
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Text: </strong>text inside alert element</li>
+        <li><strong>Icon: </strong>select desired icon
+            <ul>
+                <li><strong>Info</strong></li>
+                <li><strong>Danger</strong></li>
+                <li><strong>Warning</strong></li>      
+                <li><strong>Success <br /></strong></li>
+                <li><strong>Useful <br /></strong></li>
+                <li><strong>Normal <br /></strong></li>
+                <li><strong>Info style 2</strong></li>
+                <li><strong>Danger style 2</strong></li>
+                <li><strong>Warning style 2</strong></li>
+                <li><strong>Success style 2</strong></li>
+                <li><strong>Useful style 2</strong></li>
+                <li><strong>Normal style 2</strong></li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong> Click "Save Changes" and Alert element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/alert-vc-element.jpg" alt="alert vc element" />
+
+
+    <!-- COUNTER -->
+    <h3>Counter element</h3>
+    <p>Counter element counts from min number to max number interval.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Counter element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Counter" element from the list</li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Counter element.
+            <br /><img src="assets/img/counter-vc-settings.jpg" alt="counter vc settings" />
+        </li>
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Text: </strong> enter text to be displayed in counter (below number)</li>
+        <li><strong>Max Number: </strong> specify the max number value (the ending number of counter interval)</li>
+        <li><strong>Number color: </strong> specifty color of number</li>
+        <li><strong>Divider color: </strong>specify divider color</li>
+        <li><strong>Title color: </strong> specify title color</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong> Click "Save Changes" and Counter element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+
+    <!-- PROGRESS -->
+
+    <h3>Progress element</h3>
+    <p>Progress element is used for visually displaying graphs of progress.</p>
+    <img src="assets/img/progress.jpg" alt="progress" />
+
+    <!-- HOW TO ADD PROGRESS -->
+    <p>How to Add Progress element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Progress" element from the list
+            <br /><img src="assets/img/progress-vc.jpg" alt="progress vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Counter element.
+            <br /> <img src="assets/img/progress-vc-settings.jpg" alt="progress vc settings" />
+        </li>
+    </ul>
+    <!-- PROGRESS SETTINGS -->
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Progress procent: </strong> defines how much of the bar is covered in color (color presenting progress)</li>
+        <li><strong>Striped: </strong> can be either set to striped or not striped
+            <ul>
+                <li><strong>No: </strong>bar is not striped
+                    <br /> <img src="assets/img/progress-not-striped.jpg" alt="progress not striped" />
+                </li>
+
+                <li><strong>Yes: </strong>bar is striped
+                    <br /> <img src="assets/img/progress-striped.jpg" alt="progress striped" />
+                </li>
+
+            </ul>
+        </li>
+        <li><strong>Active: </strong>
+
+            <ul>
+                <li><strong>No: </strong>bar is not active (stripes are not moving)</li>
+                <li><strong>Yes: </strong>bar is active (stripes are moving)</li>
+            </ul>
+        </li>
+        <li><strong>Color class: </strong>
+
+            <ul>
+                <li><strong>Success </strong>
+                    <br /><img src="assets/img/progress-success.jpg" alt="progress success" />
+                </li>
+
+                <li><strong>Info </strong>
+                    <br /><img src="assets/img/progress-info.jpg" alt="progress info" />
+                </li>
+
+                <li><strong>Warning </strong>
+                    <br /><img src="assets/img/progress-warning.jpg" alt="progress warning" />
+                </li>
+
+                <li><strong>Danger </strong>
+                    <br /><img src="assets/img/progress-danger.jpg" alt="progress danger" />
+                </li>
+
+            </ul>
+        </li>
+        <li><strong>Progress title: </strong> specify the color of icon</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong> Click "Save Changes" and Progress element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/progress-vc-element.jpg" alt="progress vc element" />
+
+
+    <!-- ICON -->
+
+    <h3>Icons element</h3>
+    <p>Icon element is meant for placing icons. It includes title, subtitle and text beneath or next to an icon, title and subtitle.</p>
+    <p>Icon colors are set inside <a href="#setting-the-colors">Theme Options -> Style Settings -> Theme Style</a>.</p>
+    <img src="assets/img/icon-style1.jpg" alt="icon style" />
+
+    <!-- HOW TO ADD ICON -->
+    <p>How to Add Icon element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Icon" element from the list
+            <br /><img src="assets/img/icon-vc.jpg" alt="icon vc" />
+        </li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Icon element.
+            <br /><img src="assets/img/icon-vc-settings.jpg" alt="icon vc settings" />
+        </li>
+
+    </ul>
+    <!-- ICON SETTINGS -->
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Text: </strong>icon text</li>
+        <li><strong>Title: </strong>icon title</li>
+        <li><strong>Subtitle: </strong>specify icon subtitle</li>
+        <li><strong>Link: </strong>insert URL to link icon</li>
+        <li><strong>Target: </strong>append attribute value to link (_blank, _self, _parent, _top). Read more about these values <a href="http://www.w3schools.com/tags/att_a_target.asp">here</a>.</li>
+        <li><strong>Icon: </strong>select icon to be displayed (we use Font Awesome pack)</li>
+        <li><strong>Position: </strong>
+
+            <ul>
+                <li><strong>Left: </strong>icon alignment set to left</li>
+                <li><strong>Right: </strong>icon alignment set to right</li>
+            </ul>
+        </li>
+        <li><strong>Class: </strong>
+
+            <ul>
+                <li><strong>Style 1: </strong>icon is displayed on top, inside a circle. Title, subtitle and text are displayed beneath the icon, aligned to center.
+                    <br /><img src="assets/img/icon-style1.jpg" alt="icon style" />
+                </li>
+
+                <li><strong>Style 2: </strong>icon is displayed next to the text and is aligned based on the position value inside Icon element settings.
+                    <br /><img src="assets/img/icon-style2.jpg" alt="icon style" />
+                </li>
+
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong> Click "Save Changes" and Icon element will appear inside your Backend Editor as seen on the image below.
+            <br /><img src="assets/img/icon-vc-element.jpg" alt="icon vc element" />
+        </li>
+    </ul>
+
+
+
+    <!-- QUOTE -->
+
+    <h3>Quote element</h3>
+    <p>Quote element is meant for displaying quotes. It consists of quote icon and quote text.</p>
+    <p>Quote color depends on Primary Color which is set inside <a href="#setting-the-colors">Theme Options -> Style Settings -> Theme Style</a>.</p>
+
+    <!-- HOW TO ADD -->
+    <p>How to Add Quote element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Quote" element from the list</li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Quote element.
+            <br /><img src="assets/img/quote-vc-settings.jpg" alt="quote vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Quote Text: </strong> insert your quote text</li>
+        <li><strong>Quote Style: </strong> can be either set to Style-1 or Style-2</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong> Click "Save Changes" and Quote element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/quote-vc-element.jpg" alt="quote vc element" />
+
+    <!-- Google Maps -->
+
+    <h3>Google Maps element</h3>
+    <p>Google Maps element displays specified location and description in Google Maps. You can also upload custom pin.</p>
+    <img src="assets/img/advanced-google-maps.jpg" alt="google maps" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Google Maps element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Google Maps" element from the list</li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Google Maps element.
+            <br /> <img src="assets/img/advanced-google-maps-vc-settings.jpg" alt="advanced google maps vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Zoom: </strong>at low zoom levels, a small set of map tiles covers a wide area; at higher zoom levels, the tiles are of higher resolution and cover a smaller area.</li>
+        <li><strong>Map Type: </strong>you can select between next map types: road map, satellite, hybrid, terrain</li>
+        <li><strong>Height: </strong>height must be in px (you can also leave this field empty)</li>
+        <li><strong>Disable scrolling: </strong>disable scrolling and dragging (mobile)</li>
+    </ul>
+    <img src="assets/img/advanced-google-maps-vc-element.jpg" alt="google maps vc element" />
+    <ul><li><strong>Step 5: </strong> Click "Save Changes" and Google Maps element will appear inside your Backend Editor as seen on the image below.</li></ul>
+
+    <p>After you have create Google Maps element in VC you should add Google Maps Item by clicking the "+" icon inside Google Maps element field in VC.</p>
+    <p>New window appears.</p>
+    <img src="assets/img/advanced-google-maps-item-settings.jpg" alt="google maps item settings" />
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Location: </strong>specify location to be displayed in Google Maps</li>
+        <li><strong>Show marker at center: </strong>center google maps on this location</li>
+        <li><strong>Pin: </strong>upload a custom pin</li>
+        <li><strong>Info: </strong>insert some description about the location (it will be shown in tooltip when hovered over the pin).</li>
+    </ul>
+
+    <!-- Social Icons -->
+
+    <h3>Social Icons element</h3>
+    <p>Social Icons element is used for displaying social icons that can be linked to your social network page.</p>
+    <img src="assets/img/social-icons.jpg" alt="social icons" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Social Icons element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Social Icons" element from the list
+            <br /><img src="assets/img/social-icons-vc.jpg" alt="social icons vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>Click on the "+" icon inside Social Icons element you just created.</li>
+        <li><strong>Step 5: </strong>New window appears. Here you can specify settings for Social icon item
+            <br /><img src="assets/img/social-icons-vc-settings.jpg" alt="social icons vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>URL: </strong>insert link to your social network page here</li>
+        <li><strong>Social Network: </strong>select a social network from the list</li>
+        <li><strong>Target: </strong>append attribute value to link (_blank, _self, _parent, _top). Read more about these values <a href="http://www.w3schools.com/tags/att_a_target.asp">here</a>.</li>
+    </ul>
+    <img src="assets/img/social-icons-vc-element.jpg" alt="social icons vc element" />
+
+
+    <!-- Contact Info -->
+
+    <h3>Contact Info element</h3>
+    <p>Contact Info element is used for organized contact information. It consists of an icon and text next to it.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Contact Info element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Contact info" element from the list</li>
+        <li><strong>Step 4: </strong>Click on the "+" icon inside Contact Info element you just created.</li>
+        <li><strong>Step 5: </strong>New window appears. Here you can specify settings for Contact Info item
+            <br /><img src="assets/img/contact-info-vc-settings.jpg" alt="contact info vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Text: </strong>insert text that will be displayed next to icon</li>
+        <li><strong>Url </strong>insert url for text.</li>
+        <li><strong>Icon: </strong>select icon from the list</li>
+    </ul>
+    <img src="assets/img/contact-info-vc-element.jpg" alt="contact info vc element" />
+
+
+    <!-- FAQ -->
+    <h3>FAQ element</h3>
+    <p>FAQ element is used for displaying frequently asked questions in organized manner (with accordion).</p>
+    <img src="assets/img/faq.jpg" alt="faq" />
+    <!-- HOW TO ADD -->
+    <p>How to Add FAQ element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "FAQ" element from the list
+            <br /><img src="assets/img/faq-vc.jpg" alt="faq vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for FAQ element.
+            <br /><img src="assets/img/faq-vc-settings.jpg" alt="faq vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>FAQ question title: </strong>displays question.</li>
+        <li><strong>FAQ answer title: </strong>displays answer title (visible when user clicks on the question)</li>
+        <li><strong>FAQ answer content: </strong>displays answer content (below the answer title, visible when user clicks on the question)</li>
+    </ul>
+    <img src="assets/img/faq-vc-element.jpg" alt="faq vc element" />
+    <ul><li><strong>Step 5: </strong> Click "Save Changes" and FAQ element will appear inside your Backend Editor as seen on the image below.</li></ul>
+
+    <!-- Logo -->
+    <h3>Logo element</h3>
+    <p>Logo element is used for displaying logos.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Logo element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Logo" element from the list</li>
+        <li><strong>Step 4:</strong>Click on the "+" icon inside Logo element you just created.</li>
+        <li><strong>Step 5: </strong>New window pops up. Here you can specify settings for Logo element.
+            <br /><img src="assets/img/logo-vc-settings.jpg" alt="logo vc settings" />
+        </li>
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Logo URL: </strong>Logo image from URL</li>
+        <li><strong>Image: </strong>upload Logo image</li>
+        <li><strong>Url: </strong>specify link for the logo image (when clicked it will go connect to that link)</li>
+        <li><strong>Alt: </strong>set alternative text for logo image (good for SEO).</li>
+    </ul>
+    <img src="assets/img/logo-vc-element.jpg" alt="logo vc element" />
+    <ul><li><strong>Step 5: </strong> Click "Save Changes" and Logo element will appear inside your Backend Editor as seen on the image below.</li></ul>
+
+    <!-- Testimonials -->
+    <h3>Testimonials element</h3>
+    <p>Testimonials element is used for displaying testimonials of users, customers, clients etc.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Testimonials element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Testimonials" element from the list</li>
+        <li><strong>Step 4:</strong>Click on the "+" icon inside Testimonial element you just created.</li>
+        <li><strong>Step 5: </strong>Click "Save Changes" and Testimonials element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/testimonials-vc-element.jpg" alt="testimonials vc element" />
+    <p>After you have created the element in VC you should add Testimonial Items into the Testimonials element by clicking the "+" icon inside Testimonials element field in VC.</p>
+    <ul>
+        <li><strong>Testimonial text: </strong>insert testimonials text</li>
+        <li><strong>User name: </strong>insert name of the user saying the testimonial</li>
+        <li><strong>Rating: </strong>you can select 1-5 rating from drop down.</li>
+        <li><strong>User image: </strong>upload user image</li>
+        <li><strong>User image URL: </strong>upload user image via URL</li>
+    </ul>
+    <img src="assets/img/testimonials-vc-settings.jpg" alt="testimonial item vc settings" />
+    <br />
+
+    <!-- Button -->
+    <h3>Button element</h3>
+    <p>Button element is used for displaying buttons.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Button element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Button" element from the list
+            <br /><img src="assets/img/button-vc.jpg" alt="button vc" />
+        </li>
+
+        <li><strong>Step 4:</strong>Click on the "+" icon inside Button element you just created.</li>
+        <li><strong>Step 5: </strong>New window pops up. Here you can specify settings for Button element.
+            <br /><img src="assets/img/button-settings.jpg" alt="button settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Text: </strong>displays text inside button</li>
+        <li><strong>Link: </strong>when clicked link to specific URL</li>
+        <li><strong>Target: </strong>append attribute value to link (_blank, _self, _parent, _top). Read more about these values <a href="http://www.w3schools.com/tags/att_a_target.asp">here</a>.</li>
+        <li><strong>Size: </strong>select size of the button
+            <ul>
+                <li><strong>Small: </strong>button will be displayed in small size
+                </li>
+                <li><strong>Medium: </strong>button will be displayed in medium size
+                </li>
+                <li><strong>Large: </strong>button will be displayed in large size
+                </li>
+            </ul>
+        </li>
+        <li><strong>Style: </strong> you can see and change Button Styles inside <a href="#customizing-the-buttons">"Theme Options -> Style Settings -> Theme Style"</a>.
+        </li>
+        <li><strong>Color: </strong>specify text color on button</li>
+        <li><strong>Background: </strong>specify background color on button</li>
+        <li><strong>Icon: </strong>select icon from the list, this will add icon next to the text</li>
+
+
+
+        <li><strong>Step 5: </strong>Click "Save Changes" and Button element will appear inside your Backend Editor as seen on the image below.</li>
+    </ul>
+    <img src="assets/img/button-vc-element.jpg" alt="button vc element" />
+
+    <!-- List -->
+    <h3>List element</h3>
+    <p>List element is used for lists.</p>
+    <img src="assets/img/list-item.jpg" alt="list item" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Pricing table element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Pricing table" element from the list
+            <br /><img src="assets/img/list-vc.jpg" alt="list vc" />
+        </li>
+
+        <li><strong>Step 4:</strong>Click on the "+" icon inside Pricing table element you just created.
+            <br /><img src="assets/img/list-vc-element.jpg" alt="list vc element" />
+        </li>
+
+        <li><strong>Step 5: </strong>New window pops up. Here you can specify settings for Pricing table element.
+            <br /><img src="assets/img/list-vc-settings.jpg" alt="list vc settigns" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>List icon: </strong>indicating a list item</li>
+    </ul>
+    <p>Insert List Item by clicking on the "+" icon inside List element in VC.</p>
+    <p>New window pops up. Here you can</p>
+    <img src="assets/img/list-item-vc-settings.jpg" alt="list item vc settings" />
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Text: </strong>insert content of the list item, it will appear inside List element
+            <br /><img src="assets/img/list-item.jpg" alt="list item" />
+        </li>
+
+    </ul>
+
+    <p>After that you should see List item inside your List element in VC.</p>
+    <img src="assets/img/list-item-vc-element.jpg" alt="list item vc element" />
+
+
+    <!-- Accordion -->
+    <h3>Accordion element</h3>
+    <p>Accordion element is used for neatly displaying information that is neatly organizied in different Accordion Items that toggles (open for more information) when the user clicks on it.</p>
+    <img src="assets/img/accordion.jpg" alt="accordion" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Accordion element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Accordion" element from the list
+            <br /><img src="assets/img/accordion-vc.jpg" alt="accordion vc" />
+        </li>
+
+        <li><strong>Step 4:</strong>Click on the "+" icon inside Accordion element you just created.
+            <br /><img src="assets/img/accordion-vc-element.jpg" alt="accordion vc element" />
+        </li>
+
+        <li><strong>Step 5: </strong>New window pops up. Here you can specify settings for Accordion element.
+            <br /><img src="assets/img/accordion-vc-settings.jpg" alt="accordion vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Opened: </strong>
+
+            <ul>
+                <li><strong>No: </strong>make all Accordion Items closed</li>
+                <li><strong>Yes: </strong>make all Accordion Items opened</li>
+            </ul>
+        </li>
+        <li><strong>Style: </strong>specify Accordion style</li>
+    </ul>
+    <p>Insert Accordion Item by clicking on the "+" icon inside Accordion element in VC.</p>
+    <p>New window pops up. Here you can</p>
+    <img src="assets/img/accordion-item-vc-settings.jpg" alt="accordion item vc settings" />
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Title: </strong>insert title of the Accordion Item, that will appear inside Accordion element</li>
+    </ul>
+
+    <p>After that you should see List item inside your Accordion element in VC.</p>
+
+    <p>Build Accordion Items content by adding other Visual Composer elements inside the Accordion Item, in our example we added a heading element and beneath it a text block element.</p>
+
+    <img src="assets/img/accordion-items-vc-element.jpg" alt="accordion item vc element" />
+    <br />
+
+    <!-- Error 404 -->
+    <h3>Error 404 element</h3>
+    <p>Error 404 element is used for neatly displaying information that is neatly organizied in different Accordion Items that toggles (open for more information) when the user clicks on it.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Error 404 element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Error 404" element from the list</li>
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Error 404 element.
+            <br /><img src="assets/img/error-404-vc-settings.jpg" alt="error 404 vc settings" />
+        </li>
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Title: </strong>specify the title</li>
+        <li><strong>Subtitle: </strong>specify the subtitle</li>
+        <li><strong>Image: </strong>to be displayed on error 404 page.</li>
+
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Error 404 element will display in VC.</li>
+    </ul>
+    <p>After that you should see Error 404 element added.</p>
+
+    <img src="assets/img/error-404-vc-element.jpg" alt="error 404 vc element" />
+
+
+    <!-- Table -->
+    <h3>Table element</h3>
+    <p>Table element is used for creating and displaying tables.</p>
+    <img src="assets/img/table.jpg" alt="table" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Table element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Table" element from the list
+            <br /><img src="assets/img/table-vc.jpg" alt="table vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Table element.
+            <br /><img src="assets/img/table-vc-settings.jpg" alt="table vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>+ signs: </strong>create new row or column</li>
+        <li><strong>x signs: </strong>delete row or column</li>
+        <li><strong>Table Heading: </strong>heading displayed in table header (the first row in columns)</li>
+        <li><strong>Table Cell: </strong>insert table cell content</li>
+
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Table element will display in VC.</li>
+    </ul>
+    <p>After that you should see Table element added in VC</p>
+
+    <img src="assets/img/table-vc-element.jpg" alt="table vc element" />
+
+    <h3>Native Elements</h3>
+
+    <p>You can choose from a wide variety of native elements in Visual Composer.</p>
+    <p>Official documentation about these elements can be found <a href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">here</a>.</p>
+
+    <!-- Coming Soon -->
+
+    <h3>Row element</h3>
+    <p>Row element is used for placing content. Rows divide your page into the blocks of columns and columns hold different content items. Read more about Row Element <a href="https://wpbakery.atlassian.net/wiki/display/VC/Content+Elements#ContentElements-Row">here</a>.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Row element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Row" element from the list
+            <br /><img src="assets/img/row-vc.jpg" alt="row vc" />
+        </li>
+        <li><strong>Step 4: </strong>After that you should see Row element added in VC
+            <br /><img src="assets/img/row-vc-element.jpg" alt="row vc settings" />
+        </li>
+        <li><strong>Step 5: </strong>Click on the "pencil" icon to open Column Settings.</li>
+        <li><strong>Step 6: </strong>You can specify new extra class to this column and edit it in <a href="#custom-css">Custom CSS</a>
+            <br /><img src="assets/img/column-settings.jpg" alt="column settings" />
+        </li>
+        <li><strong>Step 7: </strong>Under Design Options and Responsive Options you can define paddings, margins, border and other options.</li>
+
+
+        <div class="advice">
+            <p><i class="fa fa-question-circle"></i><span>Official guide about using Row element can be found <a href="https://wpbakery.atlassian.net/wiki/display/VC/Content+Elements#ContentElements-Row">here</a>.</span>
+            </p>
+        </div>
+    </ul>
+
+
+    <!-- Icon -->
+
+    <h3>Icon element</h3>
+    <p>Icon element is meant for displaying icons.</p>
+    <img src="assets/img/icon.jpg" alt="coming soon" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Icon element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Icon" element from the list
+            <br /><img src="assets/img/icon-vc.jpg" alt="text block vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Icon element.
+            <br /><img src="assets/img/icon-vc-native-settings.jpg" alt="coming soon vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Icon library: </strong> choose from different Icon sets. You can see the preview of an icon below and by clicking on the arrow all the icons appear.</li>
+        <ul>
+            <li><strong>FontAwesome: </strong>you can see their icons listed <a href="http://fortawesome.github.io/Font-Awesome/icons/">here.</a>
+            </li>
+            <li><strong>Open Iconic: </strong>you can see their icons listed <a href="https://useiconic.com/open/">here</a>.</li>
+            <li><strong>Typicons: </strong>you can see their icons listed <a href="http://www.typicons.com">here</a>.</li>
+            <li><strong>Entypo: </strong>you can see their icons listed <a href="http://www.entypo.com">here</a>.</li>
+            <li><strong>Lineicons: </strong>you can see their icons listed <a href="https://linearicons.com/free">here</a>.</li>
+        </ul>
+        <li><strong>Icon color: </strong> choose icon color. At the bottom of the list you can select Custom Color.</li>
+        <li><strong>Background shape: </strong> choose background shape</li>
+        <li><strong>Background color: </strong> if background shape is selected, you can choose color of the icon background</li>
+        <li><strong>Size: </strong> choose Icon size</li>
+        <li><strong>Icon Alignment: </strong> can be eaither set to left, right and center</li>
+        <li><strong>URL: </strong> link Icon to URL</li>
+        <li><strong>CSS animation: </strong>Select type of animation for element to be animated when it "enters" the browsers viewport (Note: works only in modern browsers).
+        </li>
+        <li><strong>Extra class name: </strong> by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Icon element will display in VC.</li>
+    </ul>
+    <p>After that you should see Icon element added in VC</p>
+    <img src="assets/img/icon-vc-native-element.jpg" alt="coming soon vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+    <!--
+    <div class="advice"><p><i class="fa fa-question-circle"></i><span>Official guide about using Icon element can be found <a href="https://wpbakery.atlassian.net/wiki/display/VC/Content+Elements#ContentElements-Icon">here</a>.</span></p></div>
+-->
+
+
+
+
+    <!-- Separator -->
+
+    <h3>Separator element</h3>
+    <p>Separator element is meant for neatly organizing your page. It creates a line that divides two different sections.</p>
+    <img src="assets/img/separator.jpg" alt="separator" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Separator element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Separator" element from the list
+            <br /><img src="assets/img/separator-vc.jpg" alt="separator vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Icon element.
+            <br /><img src="assets/img/separator-vc-settings.jpg" alt="separator vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Color: </strong> choose a color of a seperator. At the bottom of the list you can select Custom Color.</li>
+        <li><strong>Alignment: </strong> choose icon color. At the bottom of the list you can select Custom Color.</li>
+        <li><strong>Style: </strong> choose background shape</li>
+        <ul>
+            <li><strong>Border: </strong><img src="assets/img/separator.jpg" alt="separator border" />
+            </li>
+            <li><strong>Dashed: </strong><img src="assets/img/separator-dashed.jpg" alt="separator dashed" />
+            </li>
+            <li><strong>Dotted: </strong><img src="assets/img/separator-dotted.jpg" alt="separator dotted" />
+            </li>
+            <li><strong>Double: </strong><img src="assets/img/separator-double.jpg" alt="separator double" />
+            </li>
+        </ul>
+        <li><strong>Border width: </strong> specify the width of the border (higher the width the bigger the separator)</li>
+        <li><strong>Element width: </strong> choose element width (100 percent means that the separator will span through entire column)</li>
+        <li><strong>Extra class name: </strong> by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Separator element will display in VC.</li>
+    </ul>
+    <p>After that you should see Separator element added in VC</p>
+    <img src="assets/img/separator-vc-element.jpg" alt="separator vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+
+
+
+    <!-- Separator with Text -->
+
+    <h3>Separator with Text element</h3>
+    <p>Separator with text element is meant for neatly organizing your page. It consists of a title and a separator line.</p>
+    <img src="assets/img/separator-with-text.jpg" alt="separator with text" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Separator with text element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Separator with text" element from the list
+            <br /><img src="assets/img/separator-with-text-vc.jpg" alt="separator with text vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Separator with text element.
+            <br /><img src="assets/img/separator-with-text-vc-settings.jpg" alt="separator with text vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Title: </strong>insert a title to be displayed inside the separator</li>
+        <li><strong>Title position: </strong>choose title position it can be either set to center, left or right</li>
+        <li><strong>Separator alignment: </strong>choose separator alignment it can be either set to left, center or right</li>
+        <li><strong>Color: </strong>choose a color of a seperator. At the bottom of the list you can select Custom Color</li>
+        <li><strong>Style: </strong>choose background shape</li>
+        <ul>
+            <li><strong>Border: </strong><img src="assets/img/separator.jpg" alt="separator border" />
+            </li>
+            <li><strong>Dashed: </strong><img src="assets/img/separator-dashed.jpg" alt="separator dashed" />
+            </li>
+            <li><strong>Dotted: </strong><img src="assets/img/separator-dotted.jpg" alt="separator dotted" />
+            </li>
+            <li><strong>Double: </strong><img src="assets/img/separator-double.jpg" alt="separator double" />
+            </li>
+        </ul>
+        <li><strong>Border width: </strong>specify the width of the border (higher the width the bigger the separator)</li>
+        <li><strong>Element width: </strong>choose element width (100 percent means that the separator will span through entire column)</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Separator with text element will display in VC.</li>
+    </ul>
+    <p>After that you should see Separator with text element added in VC</p>
+    <img src="assets/img/separator-with-text-vc-element.jpg" alt="separator with text vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+    <!-- Single Image -->
+
+    <h3>Single image element</h3>
+    <p>Single image element is meant for displaying images.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Single image element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Single image" element from the list
+            <br /><img src="assets/img/single-image-vc.jpg" alt="single image vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Single image element.
+            <br /><img src="assets/img/single-image-vc-settings.jpg" alt="single image vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Image: </strong>select image from Media Library</li>
+        <li><strong>Title position: </strong>choose title position it can be either set to center, left or right</li>
+        <li><strong>Image size: </strong>enter image size (Example: "thumbnail", "medium", "large", "full" or other sizes defined by theme). Alternatively enter size in pixels (Example: 200x100 (Width x Height)). Leave parameter empty to use "thumbnail" by default.
+        </li>
+        <li><strong>Image alignment: </strong>can be either set to left, center or right</li>
+        <li><strong>Image style: </strong>specify how the image should be displayed</li>
+        <li><strong>Border width: </strong> specify the width of the border (higher the width the bigger the separator)</li>
+        <li><strong>Link to large image: </strong>if checked, image will link to the larger image.
+        </li>
+        <li><strong>Image link: </strong>enter URL if you want this image to have a link (Note: parameters like "mailto:" are also accepted).
+        </li>
+        <li><strong>CSS animation: </strong>select type of animation for element to be animated when it "enters" the browsers viewport (Note: works only in modern browsers).
+        </li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Single image element will display in VC.</li>
+    </ul>
+    <p>After that you should see Single image element added in VC</p>
+    <img src="assets/img/single-image-vc-element.jpg" alt="single image vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+    <!-- Image Gallery -->
+
+    <h3>Image Gallery element</h3>
+    <p>Image Gallery element is meant for displaying images.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Image Gallery element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Image Gallery" element from the list
+            <br /><img src="assets/img/image-gallery-vc.jpg" alt="image gallery vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Image Gallery element.
+            <br /><img src="assets/img/image-gallery-vc-settings.jpg" alt="image gallery vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Image: </strong>select image from Media Library</li>
+        <li><strong>Title position: </strong>choose title position it can be either set to center, left or right</li>
+        <li><strong>Image size: </strong>enter image size (Example: "thumbnail", "medium", "large", "full" or other sizes defined by theme). Alternatively enter size in pixels (Example: 200x100 (Width x Height)). Leave parameter empty to use "thumbnail" by default.
+        </li>
+        <li><strong>Image alignment: </strong>can be either set to left, center or right</li>
+        <li><strong>Image style: </strong>specify how the image should be displayed</li>
+        <li><strong>Border width: </strong> specify the width of the border (higher the width the bigger the separator)</li>
+        <li><strong>Link to large image: </strong>if checked, image will link to the larger image.
+        </li>
+        <li><strong>Image link: </strong>enter URL if you want this image to have a link (Note: parameters like "mailto:" are also accepted).
+        </li>
+        <li><strong>CSS animation: </strong>select type of animation for element to be animated when it "enters" the browsers viewport (Note: works only in modern browsers).
+        </li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Image Gallery element will display in VC.</li>
+    </ul>
+    <p>After that you should see Image Gallery element added in VC</p>
+    <img src="assets/img/image-gallery-vc-element.jpg" alt="image gallery vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+
+    <!-- Image Carousel -->
+
+    <h3>Image Carousel element</h3>
+    <p>Image Carousel element is meant for displaying images.</p>
+    <!-- HOW TO ADD -->
+    <p>How to Add Image Carousel element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Image Carousel" element from the list
+            <br /><img src="assets/img/image-carousel.jpg" alt="image carousel vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Image Carousel element.
+            <br /><img src="assets/img/image-carousel-vc-settings.jpg" alt="image carousel vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Images: </strong>select images from Media Library</li>
+        <li><strong>Carousel size: </strong>enter image size. Example: thumbnail, medium, large, full or other sizes defined by current theme. Alternatively enter image size in pixels: 200x100 (Width x Height). Leave empty to use "thumbnail" size. If used slides per view, this will be used to define carousel wrapper size.
+        </li>
+        <li><strong>On click action: </strong>select action for click event.
+
+        </li>
+        <li><strong>Slider orientation: </strong>select slider position (Note: this affects swiping orientation).
+        </li>
+        <li><strong>Slider speed: </strong>duration of animation between slides (in ms).
+        </li>
+        <li><strong>Slides per view: </strong>enter number of slides to display at the same time. )
+        </li>
+        <li><strong>Slider autoplay: </strong>enable autoplay mode
+        </li>
+        <li><strong>Hide pagination control: </strong>enter URL if you want this image to have a link (Note: parameters like "mailto:" are also accepted).
+        </li>
+        <li><strong>Hide prev/next buttons: </strong>select type of animation for element to be animated when it "enters" the browsers viewport (Note: works only in modern browsers).
+        </li>
+        <li><strong>Partial view: </strong>
+        </li>
+        <li><strong>Slider loop: </strong>
+        </li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Image Carousel element will display in VC.</li>
+    </ul>
+    <p>After that you should see Image Carousel element added in VC</p>
+    <img src="assets/img/image-carousel-vc-element.jpg" alt="image carousel vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+
+    <!-- Tabs -->
+
+    <h3>Tabs element</h3>
+    <p>Tabs element is meant for displaying content inside tabs section.</p>
+    <img src="assets/img/tabs.jpg" alt="tabs" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Tabs element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Tabs" element from the list
+            <br /><img src="assets/img/tabs-vc.jpg" alt="tabs vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Tabs element.
+            <br /><img src="assets/img/tabs-vc-settings.jpg" alt="tabs vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Style: </strong>AnpsThemes is style for our themes</li>
+        <li><strong>Shape: </strong>choose title position it can be either set to center, left or right</li>
+        <li><strong>Color: </strong>specify color for tabs
+        </li>
+        <li><strong>Do not fill content area: </strong>
+        </li>
+        <li><strong>Spacing: </strong>Select tabs spacing.</li>
+        <li><strong>Gap: </strong> Select tabs gap.</li>
+        <li><strong>Position: </strong>Select tabs navigation position.
+        </li>
+        <li><strong>Alignment: </strong>Select tabs section title alignment.
+
+        </li>
+        <li><strong>Autoplay: </strong>Select auto rotate for tabs in seconds (Note: disabled by default).
+        </li>
+        <li><strong>Active section: </strong>Enter active section number (Note: to have all sections closed on initial load enter non-existing number).
+        </li>
+        <li><strong>Pagination style: </strong>Select pagination style.</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+        <li><strong>Type: </strong>defines how the tabs will be position. It can be set to vertically or horizontally.</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Tabs element will display in VC.</li>
+    </ul>
+    <p>After that you should see Tabs element added in VC</p>
+    <img src="assets/img/tabs-vc-element1.jpg" alt="tabs vc element" />
+
+    <p>Add new tabs by clicking on the "+" icon inside Tabs Element section.</p>
+    <p>New window appears.</p>
+    <img src="assets/img/tabs-section-vc-settings.jpg" alt="tabs item vc settings" />
+
+    <p>You can define: </p>
+    <ul>
+        <li><strong>Title: </strong>insert the tab title</li>
+        <li><strong>Section ID: </strong>enter section ID</li>
+        <li><strong>Add icon: </strong>checking this option will allow you to add an icon before or after the tab section title</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+
+    <p>Add Tabs items by clicking on the big "+" icon inside Tabs element.</p>
+    <p>New window appears. Add elements and set their settings. On the image below you can see Tabs element with various VC elements inside.</p>
+    <img src="assets/img/tabs-vc-element.jpg" alt="tabs vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+    <!-- Tour -->
+
+    <h3>Tour element</h3>
+    <p>Tour element is meant for displaying vertical tabbed content.</p>
+    <img src="assets/img/tabs.jpg" alt="tabs" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Tabs element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Tabs" element from the list
+            <br /><img src="assets/img/tabs-vc.jpg" alt="tabs vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Tabs element.
+            <br /><img src="assets/img/tabs-vc-settings.jpg" alt="tabs vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Style: </strong>AnpsThemes is style for our themes</li>
+        <li><strong>Shape: </strong>choose title position it can be either set to center, left or right</li>
+        <li><strong>Color: </strong>specify color for tabs
+        </li>
+        <li><strong>Do not fill content area: </strong>
+        </li>
+        <li><strong>Spacing: </strong>Select tabs spacing.</li>
+        <li><strong>Gap: </strong> Select tabs gap.</li>
+        <li><strong>Position: </strong>Select tabs navigation position.
+        </li>
+        <li><strong>Alignment: </strong>Select tabs section title alignment.
+
+        </li>
+        <li><strong>Autoplay: </strong>Select auto rotate for tabs in seconds (Note: disabled by default).
+        </li>
+        <li><strong>Active section: </strong>Enter active section number (Note: to have all sections closed on initial load enter non-existing number).
+        </li>
+        <li><strong>Pagination style: </strong>Select pagination style.</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+        <li><strong>Type: </strong>defines how the tabs will be position. It can be set to vertically or horizontally.</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Tabs element will display in VC.</li>
+    </ul>
+    <p>After that you should see Tabs element added in VC</p>
+    <img src="assets/img/tabs-vc-element1.jpg" alt="tabs vc element" />
+
+    <p>Add new tabs by clicking on the "+" icon inside Tabs Element section.</p>
+    <p>New window appears.</p>
+    <img src="assets/img/tabs-section-vc-settings.jpg" alt="tabs item vc settings" />
+
+    <p>You can define: </p>
+    <ul>
+        <li><strong>Title: </strong>insert the tab title</li>
+        <li><strong>Section ID: </strong>enter section ID</li>
+        <li><strong>Add icon: </strong>checking this option will allow you to add an icon before or after the tab section title</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+
+    <p>Add Tabs items by clicking on the big "+" icon inside Tabs element.</p>
+    <p>New window appears. Add elements and set their settings. On the image below you can see Tabs element with various VC elements inside.</p>
+    <img src="assets/img/tabs-vc-element.jpg" alt="tabs vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+
+    <!-- Accordion -->
+
+    <h3>Accordion element</h3>
+    <p>Accordion element is meant for displaying vertical tabbed content.</p>
+    <img src="assets/img/accordion.jpg" alt="accordion" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Accordion element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Accordion" element from the list
+            <br /><img src="assets/img/accordion-vc.jpg" alt="accordion vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Accordion element.
+            <br /><img src="assets/img/accordion-vc-settings.jpg" alt="accordion vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Style: </strong>AnpsThemes is style for our themes</li>
+        <li><strong>Shape: </strong>choose title position it can be either set to center, left or right</li>
+        <li><strong>Color: </strong>specify color for tabs
+        </li>
+        <li><strong>Do not fill content area: </strong>
+        </li>
+        <li><strong>Spacing: </strong>Select tabs spacing.</li>
+        <li><strong>Gap: </strong> Select tabs gap.</li>
+        <li><strong>Position: </strong>Select tabs navigation position.
+        </li>
+        <li><strong>Alignment: </strong>Select tabs section title alignment.
+
+        </li>
+        <li><strong>Autoplay: </strong>Select auto rotate for tabs in seconds (Note: disabled by default).
+        </li>
+        <li><strong>Active section: </strong>Enter active section number (Note: to have all sections closed on initial load enter non-existing number).
+        </li>
+        <li><strong>Pagination style: </strong>Select pagination style.</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+        <li><strong>Type: </strong>defines how the tabs will be position. It can be set to vertically or horizontally.</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Accordion element will display in VC.</li>
+    </ul>
+    <p>After that you should see Accordion element added in VC</p>
+    <img src="assets/img/accordion-vc-element1.jpg" alt="accordion vc element" />
+
+    <p>Add new tabs by clicking on the "+" icon inside Accordion Element section.</p>
+    <p>New window appears.</p>
+    <img src="assets/img/accordion-section-vc-settigns.jpg" alt="accordion item vc settings" />
+
+    <p>You can define: </p>
+    <ul>
+        <li><strong>Title: </strong>insert the tab title</li>
+        <li><strong>Section ID: </strong>enter section ID</li>
+        <li><strong>Add icon: </strong>checking this option will allow you to add an icon before or after the tab section title</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+
+    <p>Add Accordion items by clicking on the big "+" icon inside Accordion element.</p>
+    <p>New window appears. Add elements and set their settings. On the image below you can see Accordion element with various VC elements inside.</p>
+    <img src="assets/img/accordion-vc-element.jpg" alt="accordion vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+    <!-- Round Chart -->
+
+    <h3>Round Chart element</h3>
+    <p>Round Chart element is meant for displaying charts in a rounded fashion.</p>
+    <img src="assets/img/round-chart.jpg" alt="round chart" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Round Chart element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Round Chart" element from the list
+            <br /><img src="assets/img/round-chart-vc.jpg" alt="round chart vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Round Chart element.
+            <br /><img src="assets/img/round-chart-vc-settings.jpg" alt="round chart vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Design: </strong>select round chart design</li>
+        <ul>
+            <li><strong>Pie: </strong>
+                <br /> <img src="assets/img/round-chart-pie.jpg" alt="round chart pie" />
+            </li>
+
+            <li><strong>Doughnut: </strong>
+                <br /> <img src="assets/img/round-chart-doughnut.jpg" alt="round chart doughnut" />
+            </li>
+        </ul>
+        <li><strong>Style: </strong>select round chart style</li>
+        <ul>
+            <li><strong>Flat: </strong>
+            </li>
+            <img src="assets/img/round-chart-flat.jpg" alt="round chart flat" />
+            <li><strong>Modern: </strong>
+            </li>
+            <img src="assets/img/round-chart-modern.jpg" alt="round chart modern" />
+            <li><strong>Custom: </strong>
+            </li>
+            <img src="assets/img/round-chart-custom.jpg" alt="round chart custom" />
+        </ul>
+        <li><strong>Gap: </strong>specify gap size (the bigger the number, bigger the gap)</li>
+        <li><strong>Outline color: </strong>select gap color</li>
+        <li><strong>Show legend: </strong>if checked, chart will have legend.</li>
+        <li><strong>Show hover values: </strong> if checked, chart will show values on hover.</li>
+        <li><strong>Values: </strong>add areas to the chart. By clicking on the arrow icon new menu appears:
+        </li>
+        <ul>
+            <li><strong>Title: </strong>insert area title (i.e. Industrial)</li>
+            <li><strong>Value: </strong>insert area value (i.e. 60) this means 60 percent</li>
+            <li><strong>Color: </strong>select area color (i.e. blue)</li>
+        </ul>
+        <p>By clicking on the "+" icon you can add new areas to the chart.</p>
+        <li><strong>Animation: </strong>specify type of animation</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Round Chart element will display in VC.</li>
+    </ul>
+    <p>After that you should see Round Chart element added in VC</p>
+    <img src="assets/img/round-chart-vc-element.jpg" alt="round chart vc element" />
+
+    <div class="advice">
+        <p><i class="fa fa-question-circle"></i><span>Official guide about using Pie Chart and Round Chart element can be found <a href="https://wpbakery.atlassian.net/wiki/display/VC/Content+Elements#ContentElements-PieChart">here</a> and <a href="https://wpbakery.atlassian.net/wiki/display/VC/Content+Elements#ContentElements-RoundChart">here</a>.</span>
+        </p>
+    </div>
+
+
+    <!-- Line Chart -->
+
+    <h3>Line Chart element</h3>
+    <p>Line Chart element is meant for displaying charts in a line fashion.</p>
+    <img src="assets/img/line-chart.jpg" alt="line chart" />
+    <!-- HOW TO ADD -->
+    <p>How to Add Line Chart element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Line Chart" element from the list
+            <br /><img src="assets/img/line-chart-vc.jpg" alt="line chart vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Line Chart element.
+            <br /><img src="assets/img/line-chart-vc-settings.jpg" alt="line chart vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Widget title: </strong>enter text used as widget title (Note: located above content element).
+        </li>
+        <li><strong>Design: </strong>select round chart design</li>
+        <ul>
+            <li><strong>Line: </strong>
+                <br /> <img src="assets/img/line-chart-line.jpg" alt="line chart line" />
+            </li>
+
+            <li><strong>Bar: </strong>
+                <br /> <img src="assets/img/line-chart-bar.jpg" alt="line chart bar" />
+            </li>
+        </ul>
+        <li><strong>Style: </strong>select round chart style</li>
+        <ul>
+            <li><strong>Flat: </strong>
+            </li>
+            <img src="assets/img/line-chart-flat.jpg" alt="line chart flat" />
+            <li><strong>Modern: </strong>
+            </li>
+            <img src="assets/img/line-chart-modern.jpg" alt="line chart modern" />
+            <li><strong>Custom: </strong>
+            </li>
+            <img src="assets/img/line-chart-custom.jpg" alt="line chart custom" />
+        </ul>
+        <li><strong>Show legend: </strong>if checked, chart will have legend.</li>
+        <li><strong>Show hover values: </strong> if checked, chart will show values on hover.</li>
+        <li><strong>X-axis values: </strong>enter values for axis (Note: separate values with ";").</li>
+        <li><strong>Values: </strong>add areas to the chart. By clicking on the arrow icon new menu appears:
+        </li>
+        <ul>
+            <li><strong>Title: </strong>insert area title (i.e. Industrial)</li>
+            <li><strong>Value: </strong>insert area value (i.e. 60) this means 60 percent</li>
+            <li><strong>Color: </strong>select area color (i.e. blue)</li>
+        </ul>
+        <p>By clicking on the "+" icon you can add new areas to the chart.</p>
+        <li><strong>Animation: </strong>specify type of animation</li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Line Chart element will display in VC.</li>
+    </ul>
+    <p>After that you should see Line Chart element added in VC</p>
+    <img src="assets/img/line-chart-vc-element.jpg" alt="line chart vc element" />
+
+
+
+    <div class="advice">
+        <p><i class="fa fa-question-circle"></i><span>Official guide about using Pie Chart and Round Chart element can be found <a href="https://wpbakery.atlassian.net/wiki/display/VC/Content+Elements#ContentElements-LineChart">here</a> and <a href="https://wpbakery.atlassian.net/wiki/display/VC/Content+Elements#ContentElements-BarChart">here</a>.</span>
+        </p>
+    </div>
+
+    <!-- Empty Space -->
+
+    <h3>Empty Space element</h3>
+    <p>Empty Space element is meant for displaying empty space. This is useful for some padding purposes.</p>
+    <!-- HOW TO ADD -->
+    <p>How to add Empty Space element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Empty Space" element from the list
+            <br /><img src="assets/img/empty-space-vc.jpg" alt="empty space vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Line Chart element.
+            <br /><img src="assets/img/empty-space-vc-settings.jpg" alt="empty space vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Height: </strong>specify the height of the empty space
+        </li>
+        <li><strong>Extra class name: </strong>by entering class name you can edit this icon entirely by yourself with <a href="#custom-css">Cusom CSS</a>
+        </li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Empty Space element will display in VC.</li>
+    </ul>
+    <p>After that you should see Empty Space element added in VC</p>
+    <img src="assets/img/empty-space-vc-element.jpg" alt="empty space vc element" />
+
+
+    <!-- Post Grid -->
+
+    <h3>Post Grid element</h3>
+    <p>Post Grid element is meant for displaying blog posts in a grid.</p>
+    <!-- HOW TO ADD -->
+    <p>How to add Post Grid element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Post Grid" element from the list
+            <br /><img src="assets/img/post-grid-vc.jpg" alt="post grid vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Post Grid element.
+            <br /><img src="assets/img/post-grid-vc-settings.jpg" alt="post grid vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Data source: </strong>select content type for your grid.
+        </li>
+        <li><strong>Narrow data source: </strong>if you want to display only specific posts you can specify them by entering categories, tags or custom taxonomies.</li>
+        <li><strong>Total items: </strong>set max limit for items in grid or enter -1 to display all (limited to 1000)</li>
+        <li><strong>Display style: </strong>select display style for grid</li>
+        <li><strong>Show filter: </strong>checking this box will display filter</li>
+        <li><strong>Grid elements per row: </strong>select number of blog posts in grid per row.
+        </li>
+        <li><strong>Gap: </strong>select gap between grid elements.</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Post Grid element will display in VC.</li>
+    </ul>
+    <p>After that you should see Post Grid element added in VC</p>
+    <img src="assets/img/post-grid-vc-element.jpg" alt="post grid vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+    <!-- Media Grid -->
+
+    <h3>Media Grid element</h3>
+    <p>Media Grid element is meant for displaying Media in a grid.</p>
+    <!-- HOW TO ADD -->
+    <p>How to add Media Grid element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Media Grid" element from the list
+            <br /><img src="assets/img/media-grid-vc.jpg" alt="media grid vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Media Grid element.
+            <br /><img src="assets/img/media-grid-vc-settings.jpg" alt="media grid vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Images: </strong>select images from media library</li>
+        <li><strong>Display style: </strong>select display style for grid</li>
+        <li><strong>Grid elements per row: </strong>select number of blog posts in grid per row</li>
+        <li><strong>Gap: </strong>select gap between grid elements.</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Media Grid element will display in VC.</li>
+    </ul>
+    <p>After that you should see Media Grid element added in VC</p>
+    <img src="assets/img/media-grid-vc-element.jpg" alt="media grid vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+
+    <!-- Post Masonry Grid -->
+
+    <h3>Post Masonry Grid element</h3>
+    <p>Post Masonry Grid element is meant for displaying blog posts in a masonry grid.</p>
+    <!-- HOW TO ADD -->
+    <p>How to add Post Masonry Grid element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Post Masonry Grid" element from the list
+            <br /><img src="assets/img/post-masonry-grid-vc.jpg" alt="post masonry grid vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Post Masonry Grid element.
+            <br /><img src="assets/img/post-masonry-vc-settings.jpg" alt="post masonry grid vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Data source: </strong>select content type for your grid.
+        </li>
+        <li><strong>Narrow data source: </strong>if you want to display only specific posts you can specify them by entering categories, tags or custom taxonomies.</li>
+        <li><strong>Total items: </strong>set max limit for items in grid or enter -1 to display all (limited to 1000)</li>
+        <li><strong>Display style: </strong>select display style for grid</li>
+        <li><strong>Show filter: </strong>checking this box will display filter</li>
+        <li><strong>Grid elements per row: </strong>select number of blog posts in grid per row.
+        </li>
+        <li><strong>Gap: </strong>select gap between grid elements.</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Post Masonry Grid element will display in VC.</li>
+    </ul>
+    <p>After that you should see Post Masonry Grid element added in VC</p>
+    <img src="assets/img/post-masonry-grid-vc-element.jpg" alt="post masonry grid vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+
+    <!-- Masonry Media Grid -->
+
+    <h3>Masonry Media Grid element</h3>
+    <p>Masonry Media Grid element is meant for displaying media in a masonry grid.</p>
+    <!-- HOW TO ADD -->
+    <p>How to add Masonry Media Grid element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Masonry Media Grid" element from the list
+            <br /><img src="assets/img/masonry-media-grid-vc.jpg" alt="masonry media grid vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Masonry Media Grid element.
+            <br /><img src="assets/img/masonry-media-grid-vc-settings.jpg" alt="masonry media grid vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Data source: </strong>select content type for your grid.
+        </li>
+        <li><strong>Narrow data source: </strong>if you want to display only specific posts you can specify them by entering categories, tags or custom taxonomies.</li>
+        <li><strong>Total items: </strong>set max limit for items in grid or enter -1 to display all (limited to 1000)</li>
+        <li><strong>Display style: </strong>select display style for grid</li>
+        <li><strong>Show filter: </strong>checking this box will display filter</li>
+        <li><strong>Grid elements per row: </strong>select number of blog posts in grid per row.
+        </li>
+        <li><strong>Gap: </strong>select gap between grid elements.</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Masonry Media Grid element will display in VC.</li>
+    </ul>
+    <p>After that you should see Masonry Media Grid element added in VC</p>
+    <img src="assets/img/masonry-media-grid-vc-element.jpg" alt="masonry media grid vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+
+    <!-- Contact Form 7 -->
+
+    <h3>Contact Form 7 element</h3>
+    <p>Contact Form 7 element is meant for displaying contact form.</p>
+    <img src="assets/img/contact-form.jpg" alt="contact form" />
+    <!-- HOW TO ADD -->
+    <p>How to add Contact Form 7 element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Contact Form 7" element from the list
+            <br /><img src="assets/img/contact-form-vc-native.jpg" alt="contact form vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Contact Form 7 element.
+            <br /><img src="assets/img/contact-form-vc-settings.jpg" alt="contact form vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Form title: </strong>this text will be displayed above the contact form</li>
+        <li><strong>Select contact form: </strong>choose previously created contact form from the drop down list. We advise you to select our contact form</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Contact Form 7 element will display in VC.</li>
+    </ul>
+    <p>After that you should see Contact Form 7 element added in VC</p>
+    <img src="assets/img/contact-form-vc-element.jpg" alt="contact form vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+
+
+    <!-- Revolution Slider -->
+
+    <h3>Revolution Slider element</h3>
+    <p>Revolution Slider element is meant for displaying a Revolution Slider.</p>
+    <img src="assets/img/revolution-slider1.jpg" alt="revolution slider" />
+    <!-- HOW TO ADD -->
+    <p>How to add Revolution Slider element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Revolution Slider" element from the list
+            <br /><img src="assets/img/revolution-slider-vc-native.jpg" alt="revolution slider vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Revolution Slider element.
+            <br /><img src="assets/img/revolution-slider-vc-settings1.jpg" alt="revolution slider vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Form title: </strong>this text will be displayed above the contact form</li>
+        <li><strong>Select contact form: </strong>choose previously created contact form from the drop down list. We advise you to select our contact form</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Revolution Slider element will display in VC.</li>
+    </ul>
+    <p>After that you should see Revolution Slider element added in VC</p>
+    <img src="assets/img/revolution-slider-vc-element.jpg" alt="revolution slider vc element" />
+     <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+     <p>For more information please refer to Revolution Slider support <a href="http://www.themepunch.com/support-center">here</a>.</p>
+
+
+    <h3>WooCommerce Elements</h3>
+
+    <p>You can choose from a wide variety of WooCommerce elements in Visual Composer.</p>
+    <p>Official support and documentation for WooCommerce plugin is available <a href="https://support.woothemes.com/hc/en-us">here</a>.</p>
+
+    <!-- Cart -->
+
+    <h3>Cart element</h3>
+    <p>Cart element is meant for displaying user added items of shopping cart.</p>
+    <img src="assets/img/cart.jpg" alt="cart" />
+    <!-- HOW TO ADD -->
+    <p>How to add Cart element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Cart" element from the list
+            <br /><img src="assets/img/cart-vc.jpg" alt="cart vc" />
+        </li>
+
+    </ul>
+    <p>After that you should see Cart element added in VC</p>
+    <img src="assets/img/cart-vc-element.jpg" alt="cart vc element" />
+
+
+    <!-- Checkout -->
+
+    <h3>Checkout element</h3>
+    <p>Checkout element is meant for displaying checkout forms.</p>
+    <img src="assets/img/checkout.jpg" alt="checkout" />
+    <img src="assets/img/checkout1.jpg" alt="checkout list" />
+    <!-- HOW TO ADD -->
+    <p>How to add Checkout element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Checkout" element from the list
+            <br /><img src="assets/img/checkout-vc.jpg" alt="checkout vc" />
+        </li>
+
+    </ul>
+    <p>After that you should see Checkout element added in VC</p>
+    <img src="assets/img/checkout-vc-element.jpg" alt="checkout vc element" />
+
+
+
+    <!-- Order Tracking Form -->
+
+    <h3>Order Tracking Form element</h3>
+    <p>Order Tracking Form element is meant for tracking ordered items.</p>
+    <img src="assets/img/order-tracking-form.jpg" alt="order tracking form" />
+    <!-- HOW TO ADD -->
+    <p>How to add Order Tracking Form element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Order Tracking Form" element from the list
+            <br /><img src="assets/img/order-tracking-form-vc.jpg" alt="order tracking form vc" />
+        </li>
+
+    </ul>
+    <p>After that you should see Order Tracking Form element added in VC</p>
+    <img src="assets/img/order-tracking-form-vc-element.jpg" alt="order tracking form vc element" />
+
+    <!-- My Account -->
+
+    <h3>My Account element</h3>
+    <p>My Account element is meant for displaying user account settings.</p>
+    <img src="assets/img/my-account.jpg" alt="my account" />
+    <!-- HOW TO ADD -->
+    <p>How to add My Account element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "My Account" element from the list
+            <br /><img src="assets/img/my-account-vc.jpg" alt="my account vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for My Account element.
+            <br /><img src="assets/img/my-account-vc-settings.jpg" alt="my account vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Order count: </strong>You can specify the number or order to show, it's set by default to 15</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and My Account element will display in VC.</li>
+    </ul>
+    <p>After that you should see My Account element added in VC</p>
+    <img src="assets/img/my-account-vc-element.jpg" alt="my account vc element" />
+
+
+
+    <!-- Recent Products -->
+
+    <h3>Recent Products element</h3>
+    <p>Recent Products element is meant for displaying your recently added products.</p>
+    <img src="assets/img/recent-products.jpg" alt="recent products" />
+    <!-- HOW TO ADD -->
+    <p>How to add Recent Products element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Recent Products" element from the list
+            <br /><img src="assets/img/recent-products-vc.jpg" alt="recent products vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Recent Products element.
+            <br /><img src="assets/img/recent-products-vc-settings.jpg" alt="recent products vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Per Page: </strong>determines how many products to show on page</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Recent Products element will display in VC.</li>
+    </ul>
+    <p>After that you should see Recent Products element added in VC</p>
+    <img src="assets/img/recent-products-vc-element.jpg" alt="recent products vc element" />
+
+
+
+
+     <!-- Featured Products -->
+
+    <h3>Featured Products element</h3>
+    <p>Featured Products element is meant for displaying products that are featured (labeled with star in the "Products" page).</p>
+    <img src="assets/img/featured-products.jpg" alt="featured products" /><br />
+    <strong>Note: you should label a product as featured by going to "Products" and clicking on the Star icon in WP Admin Panel.</strong>
+    <!-- HOW TO ADD -->
+    <p>How to add Featured Products element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Featured Products" element from the list
+            <br /><img src="assets/img/featured-products-vc.jpg" alt="featured products vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Featured Products element.
+            <br /><img src="assets/img/featured-products-vc-settings.jpg" alt="featured products vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Per Page: </strong>determines how many products to show on page</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Featured Products element will display in VC.</li>
+    </ul>
+    <p>After that you should see Featured Products element added in VC</p>
+    <img src="assets/img/featured-products-vc-element.jpg" alt="featured products vc element" />
+
+
+
+    <!-- Product -->
+
+    <h3>Product element</h3>
+    <p>Product element is meant for displaying a single product item.</p>
+    <img src="assets/img/product.jpg" alt="product" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Product element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Product" element from the list
+            <br /><img src="assets/img/product-vc.jpg" alt="product vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Product element.
+            <br /><img src="assets/img/product-vc-settings.jpg" alt="product vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Select identificator: </strong>specify a product by entering its ID, SKU or title</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Product element will display in VC.</li>
+    </ul>
+    <p>After that you should see Product element added in VC</p>
+    <img src="assets/img/product-vc-element.jpg" alt="product vc element" />
+
+
+
+     <!-- Products -->
+
+    <h3>Products element</h3>
+    <p>Products element is meant for displaying more products.</p>
+    <img src="assets/img/products.jpg" alt="products" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Products element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Products" element from the list
+            <br /><img src="assets/img/products-vc.jpg" alt="products vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Products element.
+            <br /><img src="assets/img/products-vc-settings.jpg" alt="products vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+        <li><strong>Products: </strong>specify a product by entering its ID, SKU or title</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Products element will display in VC.</li>
+    </ul>
+    <p>After that you should see Products element added in VC</p>
+    <img src="assets/img/products-vc-element.jpg" alt="products vc element" />
+
+
+
+
+    <!-- Add to Cart
+
+    <h3>Add to Cart element</h3>
+    <p>Add to Cart element is meant for displaying more products.</p>
+    <img src="assets/img/add-to-cart.jpg" alt="add to cart" /><br />-->
+    <!-- HOW TO ADD -->
+   <!-- <p>How to add Add to Cart element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Add to Cart" element from the list
+            <br /><img src="assets/img/add-to-cart-vc.jpg" alt="add to cart vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Add to Cart element.
+            <br /><img src="assets/img/add-to-cart-vc-settings.jpg" alt="add to cart vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+        <li><strong>Products: </strong>specify a product by entering its ID, SKU or title</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Add to Cart element will display in VC.</li>
+    </ul>
+    <p>After that you should see Add to Cart element added in VC</p>
+    <img src="assets/img/add-to-cart-vc-element.jpg" alt="add to cart vc element" /> -->
+
+
+
+
+     <!-- Product Page -->
+
+    <h3>Product Page element</h3>
+    <p>Product Page element is meant for displaying more products.</p>
+    <img src="assets/img/product-page.jpg" alt="product page" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Add Product Page element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Product Page" element from the list
+            <br /><img src="assets/img/product-page-vc.jpg" alt="product page vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Product Page element.
+            <br /><img src="assets/img/product-page-vc-settings.jpg" alt="aproduct page vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Select identificator: </strong>specify a product by entering its ID, SKU or title</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Product Page element will display in VC.</li>
+    </ul>
+    <p>After that you should see Product Page element added in VC</p>
+    <img src="assets/img/product-page-vc-element.jpg" alt="product page vc element" />
+
+
+
+    <!-- Product Category -->
+
+    <h3>Product Category element</h3>
+    <p>Product Page element is meant for displaying products from a specific category.</p>
+    <img src="assets/img/product-category.jpg" alt="product category" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Add Product Category element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Product Category" element from the list
+            <br /><img src="assets/img/product-category-vc.jpg" alt="product category vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Product Category element.
+            <br /><img src="assets/img/product-category-vc-settings.jpg" alt="aproduct category vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Per Page: </strong>determines how many products to show on page</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+        <li><strong>Category: </strong>select a product category to display products from</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Product Category element will display in VC.</li>
+    </ul>
+    <p>After that you should see Product Category element added in VC</p>
+    <img src="assets/img/product-category-vc-element.jpg" alt="product category vc element" />
+
+
+
+
+     <!-- Product Categories -->
+
+    <h3>Product Categories element</h3>
+    <p>Product Categories element is meant for displaying products from more specific categories.</p>
+    <img src="assets/img/product-category.jpg" alt="product category" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Add Product Categories element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Product Categories" element from the list
+            <br /><img src="assets/img/product-categories-vc.jpg" alt="product categories vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Product Categories element.
+            <br /><img src="assets/img/product-categories-vc-settings.jpg" alt="product categories vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Number: </strong>The `number` field is used to display the number of products</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Categories: </strong>select categories to display products from</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Product Categories element will display in VC.</li>
+    </ul>
+    <p>After that you should see Product Categories element added in VC</p>
+    <img src="assets/img/product-categories-vc-element.jpg" alt="product categories vc element" />
+
+
+
+     <!-- Sale Products -->
+
+    <h3>Sale Products element</h3>
+    <p>Sale Products element is meant for displaying products that are on sale.</p>
+    <img src="assets/img/sale-products.jpg" alt="sale products" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Add Sale Products element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Sale Products" element from the list
+            <br /><img src="assets/img/sale-products-vc.jpg" alt="sale products vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Sale Products element.
+            <br /><img src="assets/img/sale-products-vc-settings.jpg" alt="sale products vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Per Page: </strong>determines how many products to show on page</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+
+        <li><strong>Categories: </strong>select categories to display products from</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Sale Products element will display in VC.</li>
+    </ul>
+    <p>After that you should see Sale Products element added in VC</p>
+    <img src="assets/img/sale-products-vc-element.jpg" alt="sale products vc element" />
+
+
+
+
+    <!-- Best Selling Products -->
+
+    <h3>Best Selling Products element</h3>
+    <p>Best Selling Products element is meant for displaying products that are on sale.</p>
+    <img src="assets/img/best-selling-products.jpg" alt="best selling products" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Add Best Selling Products element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Best Selling Products" element from the list
+            <br /><img src="assets/img/best-selling-products-vc.jpg" alt="best selling products products vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Best Selling Products element.
+            <br /><img src="assets/img/best-selling-products-vc-settings.jpg" alt="best selling products vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Per Page: </strong>determines how many products to show on page</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Best Selling Products element will display in VC.</li>
+    </ul>
+    <p>After that you should see Best Selling Products element added in VC</p>
+    <img src="assets/img/best-selling-products-vc-element.jpg" alt="best selling products vc element" />
+
+
+
+
+    <!-- Top Rated Products -->
+
+    <h3>Top Rated Products element</h3>
+    <p>Top Rated Products element is meant for displaying top rated products.</p>
+    <img src="assets/img/top-rated-products.jpg" alt="top rated products" /><br />
+    <!-- HOW TO ADD -->
+    <p>How to add Add Top Rated Products element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Top Rated Products" element from the list
+            <br /><img src="assets/img/top-rated-products-vc.jpg" alt="top rated products products vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Top Rated Products element.
+            <br /><img src="assets/img/top-rated-products-vc-settings.jpg" alt="top rated products vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Per Page: </strong>determines how many products to show on page</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Top Rated Products element will display in VC.</li>
+    </ul>
+    <p>After that you should see Top Rated Products element added in VC</p>
+    <img src="assets/img/top-rated-products-vc-element.jpg" alt="top rated products vc element" />
+
+
+
+    <!-- Product Attribute
+
+    <h3>Product Attribute element</h3>
+    <p>Product Attribute element is meant for displaying products that are on sale.</p>
+    <img src="assets/img/product-attribute.jpg" alt="product attribute" /><br />
+    <!-- HOW TO ADD -->
+    <!-- <p>How to add Add Product Attribute element in VC:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Backend Editor"</li>
+        <li><strong>Step 2: </strong>Click on the "+" icon to add new element</li>
+        <li><strong>Step 3: </strong>New window pops up. Select "Product Attribute" element from the list
+            <br /><img src="assets/img/product-attribute-vc.jpg" alt="product attribute vc" />
+        </li>
+
+        <li><strong>Step 4: </strong>New window pops up. Here you can specify settings for Product Attribute element.
+            <br /><img src="assets/img/product-attribute-vc-settings.jpg" alt="product attribute vc settings" />
+        </li>
+
+    </ul>
+    <p>You can define:</p>
+    <ul>
+        <li><strong>Per Page: </strong>determines how many products to show on page</li>
+        <li><strong>Columns: </strong>determines how many columns wide the products should be before wrapping</li>
+        <li><strong>Order by: </strong>specify how the products should be ordered</li>
+        <li><strong>Order way: </strong>specify how the ordered should be layed out. You can either set it to ascending or descending</li>
+    </ul>
+    <ul>
+        <li><strong>Step 5: </strong>Click "Save Changes" when done customizing the settings and Product Attribute element will display in VC.</li>
+    </ul>
+    <p>After that you should see Product Attribute element added in VC</p>
+    <img src="assets/img/product-attribute-vc-element.jpg" alt="product attribute vc element" /> -->
+
+
+
+
+    <p>For more information please refer to Visual Composer help page: <a target="_blank" href="https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress">https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress</a>
+    </p>
+
+    <h3>Grid elements</h3>
+    <p>
+        <iframe width="760" height="515" src="https://www.youtube.com/embed/sBvEiIL6Blo" frameborder="0" allowfullscreen></iframe>
+    </p>
+    <p>
+        If you want to have our button style. Than you need to add: style-1, style-2, style-3 or style-4 under extra class name
+    </p>
+    <img src="http://anpsthemes.com/constructo-documentation/assets/img/doc_vc.jpg" />
+    <br />
+    <br />
+
+</section>
+
+        <!-- Blog -->
+        <section>
+    <h2>Adding Blog Posts</h2>
+
+    <h3>Adding Blog Posts with Wordpress</h3>
+    <p>Here is a brief tutorial on how to create and publish new posts.
+
+        <ul>
+            <li><strong>Step 1: </strong>To add a post to your blog go to Posts → "Add New", at the right navigation menu in your Wordpress Admin Panel
+                <br /><img src="assets/img/blog-post.jpg" alt="blog posts" />
+            </li>
+            <li><strong>Step 2: </strong>Add a title of your post</li>
+
+            <li><strong>Step 3: </strong>Add content in the textarea below.</li>
+            <li><strong>Step 4: </strong>You can insert media content (images, videos) by clicking the "Add Media" button above the content textarea and below the title text field</li>
+
+            <li><strong>Step 5: </strong>You can choose to disable page heading or change page heading image and type of heading (i.e. fullscreen heading)
+                <br /><strong>Note: this will override page heading settings set in Theme Options for this specific blog post.</strong>
+                <br /><img src="assets/img/page-heading.jpg" alt="page heading" />
+            </li>
+
+            <li><strong>Step 6: </strong>Assign categories for this specific blog post in the panel "Categories" on the right.</li>
+
+            <li><strong>Step 7: </strong>Choose the featured image for blog post in the panel "Featured Images" on the right. Featured image is displayed above the excerpt post of the blog post.</li>
+            <li><strong>Step 8: </strong>Click on the publish button to publish the blog post.
+                <br /><img src="assets/img/publish.jpg" alt="publish" />
+            </li>
+
+        </ul>
+        <p>You can insert special content elements such as headings, buttons, google maps etc. by clicking on shortcodes dropdown. To add a post to your blog go to Posts → "Add New", at the right navigation menu in your Wordpress Admin Panel add post heading, post content, add Featured image and assign the desired categories. See <a href="http://codex.wordpress.org/Writing_Posts" target="_blank">more details</a> on adding posts.</p>
+
+        <h3>Adding images</h3>
+
+        <p>Images can be placed inside the content by clicking the "Add Media" button. New window appears where you can set additional options, such as title of an image, description etc. you can also set the image size from three predefined sizes (thumbnail, medium and large) and image alignment (left, center or right).</p>
+
+        <h3>Adding a video to your Blog posts</h3>
+
+        <p>Above the Featured image option (right side) on posts you can find the Featured Video option. You can add either the [youtube] or [vimeo] shortcodes to display the videos.</p>
+        <p>Read more about using these shortcodes <a href="https://en.support.wordpress.com/videos/youtube/">here</a>.</p>
+        <h3>Adding a gallery of images to Blog posts</h3>
+
+        <p>Above the Featured image option (right side) you can find the Gallery Images option.</p>
+
+
+        <p>This gallery images are displayed as a slider on the blog post page.</p>
+
+        <h3>Adding Blog Posts with Visual Composer</h3>
+        <ul>
+            <li><strong>Step 1: </strong>To enable this feature go to "Settings" → "Visual Composer"
+                <br /><img src="assets/img/settings-visual-composer.jpg" alt="settings visual composer" />
+            </li>
+            <li><strong>Step 2: </strong>Check the "post" content type and click "Save Changes"
+                <br /><img src="assets/img/content-type-post.jpg" alt="content type post" />
+            </li>
+            <li><strong>Step 3: </strong>Click on the "Backend Editor" button on Blog Post Page inside WP admin panel (below the blog post title).
+                <br /><img src="assets/img/vc-backend-button.jpg" alt="vc backend button" />
+            </li>
+
+        </ul>
+
+
+
+        <p>Inside VC Backend Editor you can easily drag-and-drop many of our custom elements (such as portfolio, team, recent blog, recent portfolio, quotes, icons, statements, accordions, testimonials, buttons, videos etc.)</p>
+
+        <p>On the image below you can see a custom blog page built with VC. Main Content is presented in a single column row and it consists of elements such as Single Image and Text Block. Text written below the image is caption.</p>
+
+</section>
+
+        <!-- Portfolio -->
+        <section>
+    <h2>Adding Portfolio Posts</h2>
+    <h3>Portfolio single item styles</h3>
+    <p>There are two styles, that you can choose from in <a href="#">Theme Options.</a></p>
+    <ul>
+        <li>Portfolio Single Style 1 shows images normally in the left column and text in the right column.</li>
+        <li>Portfolio Single Style 2 shows images in a carousel slider above the content.</li>
+    </ul>
+    
+    <p>Portfolio posts are meant for showcasing and describing your products, services, projects etc.</p>
+    <p>They are displayed in grid-like structure and when clicked more information about the project is revealed (goes to a portfolio item page).</p>
+    <ol>
+        <li>Sort Portfolio Posts by categories</li>
+        <li>Portfolio Posts displayed in grid order. When hovered, title of portfolio appears and when clicked it takes you to the Portfolio Single Page.</li>
+        <li>Portfolio Single Page is in this case using Portfolio Single Style 1.</li>
+    </ol>
+    <ul>
+        <li><strong>Step 1: </strong>Inside WP Admin Panel click on the "Portfolio" → "Add New". <br /><img src="assets/img/portfolio.jpg" alt="portfolio" /></li>
+        <li><strong>Step 2: </strong>Enter the Portfolio Item title</li>
+        <li><strong>Step 3: </strong>Insert the content in textarea below. You can insert shortcodes via in-built shortcode manager. Read more about shortcodes inside <a href="#shortcodes">Shortcodes</a>. You can also place content with Visual Composer Backend Editor. More on Visual Composer read <a href="#visual-composer">here</a>. <br /> <strong>Note: enable Visual Composer backend editor by going to "Settings -> Visual Composer" and checking the portfolio option inside WP Admin panel.</strong></li>
+        <li><strong>Step 4: </strong>Enter a portfolio subtitle.<br /><img src="assets/img/portfolio-posts-subtitle.jpg" alt="portfolio posts subtitle" /></li>
+        <li><strong>Step 5: </strong>Define how the page heading will look like.
+            <ul>
+                <li><strong>Disable Page Heading: </strong>Check the box if you don't want to display the Page Heading.</li>
+                <li><strong>Page Heading Background: </strong>Upload an image for the background of the Page Heading.</li>
+                <li><strong>Full Screen Heading: </strong>Check the box if you want to have a full screen heading. If box is checked new options appear:
+                    <ul>
+                        <li><strong>Color top bar: </strong>Select a color for the top bar text color.</li>
+                        <li><strong>Color menu, title and breadcrumbs: </strong>Select a color for the menu links, page heading title and breadcrumbs.</li>
+                        <li><strong>Hover color: </strong>Select a color for hover states (when cursor is over the link).</li>
+                        <li><strong>Logo: </strong>Choose a logo from the dropdown list. Upload a new Logo if needed by going to "Media -> Add New" in WP Admin Panel.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><strong>Step 6: </strong>Assign categories for this specific portfolio post. This is applies to filtering purposes. (So that visitors can sort portfolio posts by category).</li>
+
+        <li><strong>Step 7: </strong>Add Gallery Images (on the right). Images added here will appear in the left column or above the content in the carousel. Depends on the set Portfolio Single Style which can be modified inside <a href="#portfolio-single-style">Theme Options -> General Settings -> Page Setup</a>.</li>
+
+        <li><strong>Step 8: </strong>Add Featured Image (on the right). Added image will be displayed in Portfolio grid.</li>
+        <li><strong>Step 9: Click "Publish" or "Update".</strong></li>
+    </ul>
+        <p>This is an example of portfolio post page with Page Heading set to full screen and Portfolio Style set to Style one.</p>
+</section>
+
+        <!-- Sliders -->
+        <section>
+    <h2>Sliders</h2>
+
+    <h3>Revolution slider</h3>
+    <p>Our themes come included with Revolution Slider, which is one of best sliders available.</p>
+
+    <ul>
+        <li><strong>Step 1: </strong> Install Revolution Slider by going to "Plugins" → "Revolution Slider" then click Install and Activate the plugin.</li>
+        <li><strong>Step 2: </strong>Go to "Revolution Slider" in the WP Admin Panel navigation.
+            <br /><img src="assets/img/revolution-slider-nav.jpg" alt="revolution slider nav" />
+        </li>
+
+        <li><strong>Step 3: </strong>Click on the "Create New Slider" or click on the link to modify an existing one.<img src="assets/img/revolution-slider.jpg" alt="revolution slider" />
+        </li>
+
+        <li><strong>Step 4: </strong>Fill out the Main Slider Settings, such as the slider title, layout, height and width properties. Adjust visual effects in panels on the right side.
+        </li>
+        <li><strong>Step 5: </strong>Go to the page you want your slider to be shown.
+        </li>
+        <li><strong>Step 6: </strong>Go to Backend Editor with Visual Composer and add new element by clicking "+" icon and add element "Revolution Slider"<img src="assets/img/revolution-slider-vc.jpg" alt="revolution slider vc" />
+        </li>
+        <li><strong>Step 7: </strong>New window pops up. Choose desired slider setup from the menu.<img src="assets/img/revolution-slider-vc-settings.jpg" alt="revolution slider vc settings" />
+        </li>
+        <li><strong>Step 8: </strong>After clicking "Save Changes" you should see Revolution Slider element added to the page.</li>
+    </ul>
+
+    <p>You can also copy the shortcode that is automatically generated anywhere in the text editor (WP or Visual Composer).</p>
+    <ul>
+        <li><strong>Step 1: </strong>Copy the code inside Main Slider Settings ("Revolution Slider" → "Add New Slider" or click on the link of existing one). <img src="assets/img/revolution-slider-shortcode.jpg" alt="revolution slider shortcode" />
+        </li>
+
+        <li><strong>Step 2: </strong>Paste the code anywhere in the text editor (WP built-in text editor or Visual Composer).</li>
+    </ul>
+
+    <p>For more detailed information and support please refer to the official plugin website <a href="http://anpsthemes.com/revolution-slider-documentation/">here</a>.</p>
+    <p>Download slider dummy content: <a href="http://astudio.si/preview/plugins/constructo/main-slider.zip">here</a>
+    </p>
+
+
+</section>
+
+        <!-- Widgets -->
+        <section>
+    <h2>Widgets</h2>
+
+    <p>You can add widget in Appearance → Widgets by drag and dropping in the Sidebar box.</p>
+
+    <p>Once you have added a widget to the Sidebar box the widget will open and extra fields will appear.</p>
+
+    <p><a href="http://codex.wordpress.org/WordPress_Widgets" target="_blank">More</a> information on widgets.</p>
+
+        <h3>AnpsThemes - Download</h3>
+
+        <p>You can add downloadable file. First title is widget title, than you can add file title and select file from dropdown list (all files from media library) or enter url to file (file external input field). You can also select icon from font awesome and color for icon and backgroud color, you can leave it empty and widget will take these colors from theme options.</p>
+        <img src="assets/img/widgetdownload.png" />
+        <br />
+        <br />
+
+        <h3>AnpsThemes - Images</h3>
+
+        <p>You can select any image from media library and shows it in any sidebar.</p>
+        <img src="assets/img/widgetimages.png" />
+        <br />
+        <br />
+        
+        <h3>AnpsThemes - Menu</h3>
+
+        <p>Double column menu display. Only one level menu supported.</p>
+        <img src="assets/img/widgetmenu.png" />
+        <br />
+        <br />
+        
+        <h3>AnpsThemes - Mini Cart</h3>
+
+        <p>Widget without options. You can add woocommerce mini cart to any widget area. For example into above navigation sidebar.</p>
+        <br />
+        <br />
+        
+        <h3>AnpsThemes - Opening Time</h3>
+
+        <p>In opening time widget you can set day (for example: Monday), time (for example: 10:00 - 18:00). You can also set if this day is exposed or not (automatically added new class). You also have + button to add new days.</p>
+        <img src="assets/img/widgetopeningtime.png" />
+        <br />
+        <br />
+        
+        <h3>AnpsThemes - Recent News</h3>
+
+        <p>Our widget recent news is a bit different than the native WordPress widget. The recent posts are styled differently and also display images from the posts.</p>
+        <img src="assets/img/widgetrecentnews.png" />
+        <br />
+        <br />
+        
+        <h3>AnpsThemes - Recent Projects</h3>
+
+        <p>With recent projects widget you can show latest portfolio posts with images. Enter the title for recent projects and number of projects to be displayed.</p>
+        <img src="assets/img/widgetrecentprojects.png" />
+        <br />
+        <br />
+        
+        <h3>AnpsThemes - Social icons</h3>
+
+        <p>You can select between 4 styles: default, minimal, border and transparent border. You can also select icon and add url for this icon. Links can open as: self, blank, parent and top. You can add unlimited icons.</p>
+        <img src="assets/img/widgetsocial.png" />
+        <br />
+        <br />
+        
+        <h3>AnpsThemes - Spacing</h3>
+
+        <p>With spacing widget you can add spacing between widgets in px.</p>
+        <br />
+        <br />
+
+        <h3>AnpsThemes - Text and icon</h3>
+
+        <p>You can also add link in text. Example: &lt;a href="mailto:info@yourdomain.com"&gt;info@yourdomain.com&lt;/a&gt;</p>
+        <img src="assets/img/widgettext.png" />
+
+        <p>Read more about WooCommerce widgets <a href="http://docs.woothemes.com/document/woocommerce-widgets/">here</a>.</p>
+</section>
+
+        <!-- Adding Sidebars -->
+        <section>
+    <h2>Sidebars</h2>
+    <h3>Creating new Sidebar</h3>
+    <ul>
+        <li><strong>Step 1: </strong>Inside WP Admin Panel Go to "Appearance → Sidebars" <br /><img src="assets/img/sidebars.jpg" alt="sidebars" /></li>
+        <li><strong>Step 2: </strong>Click on the "+ Add Sidebar" <br /><img src="assets/img/create-sidebar.jpg" alt="create sidebar" /></li>
+        <li><strong>Step 2: </strong>New window pops up. Insert Sidebar name.<br /><img src="assets/img/create-sidebar-name.jpg" alt="create sidebar name" /></li>
+        <li><strong>Step 4: </strong>Click on the "OK" button. You should see your sidebar now added to the table.</li>
+    </ul>
+    <p>You can add widgets to newly created sidebars by going to "Appearance → Widgets".</p>
+    <h3>Adding a sidebar to a page or post</h3>
+    <p>You can add a sidebar to all pages, except the portfolio page and single item portfolio page. You can add a sidebar to a page/post by selecting the desired by going to the desired item in WordPress (under Pages/Posts) and under the content editor you will see a box called Sidebars. You can select eiter only one of the sidebars, either both of them.</p>
+    <p><strong>Important: </strong>Be carefull when adding two sidebars, because some elements aren't designed to be used with two sidebars ( two or more column sidebars ).</p>
+     <h3>Adding a Sidebar </h3>
+</section>
+
+        <!-- Translation -->
+        <section>
+    <h2>Translating the Theme</h2>
+
+    <p>Our theme comes localisation ready out of the box.</p>
+
+    <p>There are several methods to create a translation, most of which are outlined in the codex (<a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">http://codex.wordpress.org/Translating_WordPress</a>), however, we find the easiest method is to use a plugin called <a href="https://wordpress.org/plugins/loco-translate" target="_blank">Loco Translate</a>.</p>
+
+    <h3>Translating with Loco Translate Plugin</h3>
+    <p>The Loco Translate plugin provides in-browser editing of PO files used for localizing WordPress plugins and themes.
+    <a href="https://wordpress.org/plugins/loco-translate" target="_blank">Free Loco Translate Download</a></p>
+    <p>After installing the Loco Translate plugin you should see a new section added to your WP Admin Panel navigation area.</p>
+
+    <img src="assets/img/loco-translate-plugin.png" alt="loco translate plugin" />
+
+    <p>This is a step-by-step guide to translate your Theme with Loco Translate Plugin.</p>
+
+    <h5>Choosing the Language</h5>
+    <ul><li><strong>Step 1:</strong> To translate your Theme, select the desired theme from the "Themes" area by clicking on the "New Language" button. <br />
+    To modify an existing translation click on the link of that specific language. <br /><img src="assets/img/loco-translate-themes.png" alt="loco translate themes" /></li>
+
+    <li><strong>Step 2:</strong> Select a language in which you want to translate your Theme into. You can also specify language by inserting the language code into the text box located below. <br /><img src="assets/img/loco-translate-language.png" alt="loco translate language" /></li>
+
+    <li>Then click Start Translating.</li>
+    </ul>
+    <h5>Translating</h5>
+    <ul>
+    <li><strong>Step 3:</strong> We need to Sync our Theme with Loco Translate.
+    Click on the "Sync" button to synchronize. <br /><img src="assets/img/loco-translate-sync.png" alt="loco translate sync" /></li>
+    <li>After clicking on the "Sync" button you will see a wide list of words inside the "Source Text" area. <br /><img src="assets/img/loco-translate-source-text.png" alt="loco translate source text" /></li>
+    <li><strong>Step 4:</strong> Choose the word or a string you would like to translate by clicking on them.
+    You can also filter the strings by using the "Filter Translation" input box above the "Source Text" area.</li>
+    <li><strong>Step 5:</strong> Type the translated version of a word or a string inside the "Language Version" area below "Source Text" area.<br /><img src="assets/img/loco-translate-translation.png" alt="loco translate translation"/></li>
+
+    <li><strong>Step 6:</strong> When finished translating click on the Save button located on top of the "Source Text" area. <br /><img src="assets/img/loco-translate-save.png" alt="loco translate save"/></li>
+    </ul>
+
+    <p>You can revert the modifications by clicking on the "Revert" button. <strong>Note: you can't revert the changes when you have already saved the file.</strong></p>
+
+    <p>After clicking the "Save" button your Theme will automatically be updated with the newly added translations.</p>
+    <p>For more detailed information please refer to the <a href="https://wordpress.org/plugins/loco-translate/" target="_blank">official plugin website</a></p>
+</section>
+
+        <!-- Updating the theme -->
+        <section>
+    <h2>Updating the Theme</h2>
+
+    <h3>Before you update</h3>
+    <p>Everytime we update a theme you will be notified by email message. We suggesst that you keep Theme up to date, as we fix bugs and add improvements.</p>
+    <div class="alert"><p><i class="fa fa-exclamation-triangle"></i><span>Caution: Always backup your files before upgrading.</span></p></div>
+<!--
+    <p>For added improvements and fixed bugs you can refer to Changelog that is posted below the presentation on our ThemeForest item page.</p>
+
+    <img src="assets/img/changelog.jpg" alt="changelog" />
+    <!--  <p>Go to our ThemeForest item page and see all of the changes in the changelog. Here you will also find if there are any problems if you update / what you have to do.</p>
+    <img src="assets/img/constructo-item-page.jpg" alt="constructo item apge" />
+    <p>Changelog is located beneath the theme presentation.</p>
+    <img src="assets/img/changelog.jpg" alt="changelog" />
+    <p>Save all of your changes files, ie. the custom.css file (you don't need to worry if you are using a child theme).</p>  -->
+    <h3>How to update - Using FTP (prefered):</h3>
+
+    <p>To update our theme, go to ThemeForest and download the newest version of our theme (you can check all of your purchased items under the Downloads tab).</p>
+    <ul>
+        <li><strong>Step 1: </strong>Download the latest version from ThemeForest and unzip it</li>
+        <li><strong>Step 2: </strong>Log in to your server with FTP program and navigate to your wordpress installation -> wp-content -> themes</li>
+        <li><strong>Step 3: </strong>Delete (or just rename) your old Theme folder on server</li>
+        <li><strong>Step 4: </strong>Copy your new Theme folder to the server</li>
+    </ul>
+    <!-- <img src="assets/img/update-theme-upload.jpg" alt="update theme upload" /> -->
+    <img src="assets/img/updating-theme.gif" width="800" alt="theme update" />
+    <p>Some of the FTP programs available for uploading files to server are <a href="https://filezilla-project.org/">FileZilla</a> and <a href="https://www.smartftp.com/">SmartFTP</a>.</p>
+    <p><strong>Please note: our theme cannot be updated via WordPress, so if you are promted to update the theme, please do not click on the update, as you may lose your files.</strong></p>
+
+    <h3 name="theme-options-upgrade">How to update - Using Theme Options</h3>
+    <div class="alert"><p><i class="fa fa-exclamation-triangle"></i><span>Caution: Always backup your files before upgrading.</span></p></div>
+    <p>You can also update our theme by following the next steps:</p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Appearance -> Theme Options"</li>
+        <li><strong>Step 2: </strong>Inside Theme Options click on the "Upgrade Theme" inside the General Settings section.</li>
+        <li><strong>Step 3: </strong>Enter your ThemeForest username</li>
+        <li><strong>Step 4: </strong>Enter your ThemeForest API key (see Generate API key below)    <img src="assets/img/update-theme.jpg" width="700" alt="update theme" /></li>
+    </ul>
+
+    <h4>Generate API key</h4>
+    <p>To get your API key, log in to your themeforest account and click settings -> API Keys. Please see the screnshot below. If you do not have any generated API keys, please generate one.</p>
+    <img src="assets/img/generate-envato-api-key.png" alt="generate envato api key"/>
+</section>
+
+        <!-- Upgrading the theme -->
+        
+        <!-- Optimize the theme -->
+        <section>
+    <h2>Site Optimization</h2>
+
+    <p>Slow website performance can be caused by different issues. Below are the 4 most common issues:</p>
+
+    <ul>
+        <li>
+            <p><strong>Plugins - </strong> Using multiple plugins on your site may effect your site performance. To quickly see if a plugin is slowing your site, disable all the plugins except for the ones that we included with our theme. If the site is running faster, then one of the plugins is the problem. To find out which one it is, activate one plugin at a time and test your site after each activation. If you find a plugin that is causing issues, please contact the plugin developer and report it to them.</p>
+        </li>
+        <li>
+            <p><strong>Media Content - </strong> Images are the primary reason web pages are bloated and having unoptimized images can drastically slow down your site. Make sure not to upload larger images than you need to. Example: the image should not be larger then the column size in which the image is placed.</p>
+
+            <p>Also make sure the images are compressed/optimized. To do so, we recommend using an image editing tool like Photoshop and use the "Save For Web" feature to optimize images and reduce the overall file size.</p>
+        </li>
+        <li>
+            <p><strong>W3 Total Cache - </strong> Using a caching plugin will definitely boost your site performance. We recommend using W3 Total Cache, because it has shown the most performance boosts on our themes. Check out this <a href="http://code.tutsplus.com/tutorials/configuring-w3-total-cache-an-introduction--wp-35364" target="_blank">Tuts+ article</a>. It starts by going over why using a caching plugin will help you and then dives into all the different options you need set, to make sure your site runs as fast as possible.</p>
+        </li>
+        <li>
+            <p><strong>Hosting - </strong> Your site can only run as fast as your hosting allows it. This depends on which hosting provider and which hosting plan you have chosen. For example: using shared hosting can have an effect on speed. If you have not yet chosen a provider, please check forum and review sites to see which hosting will work best for you.</p>
+
+            <p>If you have tried all the performance tips and the site performance has not changed, we suggest you contact your host and discuss it with them.</p>
+        </li>
+    </ul>
+</section>
+        <!-- One Page Layout -->
+        
+        <!-- Child theme -->
+        <section>
+    <h2>Child Theme</h2>
+
+    <p>A WordPress child theme is a theme that inherits the functionality of another theme, called the parent theme, and allows you to modify, or add to, the functionality of that parent theme. The whole idea of a child theme is that you can modify, and add to the functionality of that parent theme without modifying it directly. The parent remains intact, everything is built within the child theme.</p>
+
+    <h4>Reasons to use child theme:</h4>
+
+    <ul>
+        <li><strong>Easy updates</strong> - If you’re using a child theme, you don’t have to worry about any updates. Whenever you update the theme, only the parent theme will be updated. Your child theme, and everything you’ve coded in it, remains intact.</li>
+        <li><strong>Changes -</strong> If you’re using a child theme, every modification can be found in the child theme’s folder and thus you can track all the changes you made very easily.
+    To start using our child theme, then just activate the</li>
+    </ul>
+    
+    <p><a href="http://codex.wordpress.org/Child_Themes" target="_blank">Read more here</a></p>
+</section>
+        <!-- Footer -->
+        <section>
+    <h2>Footer</h2>
+    <p>Footer is great for presenting some additional information such as your contact information, sitemap, search field, social icons etc.</p>
+    <p>You can add these features to your Footer by following the next steps: </p>
+    <ul>
+        <li><strong>Step 1: </strong>Go to "Appearance -> Widgets" inside your WP Admin Panel</li>
+        <li><strong>Step 2: </strong>Drag-and-Drop the Widgets on the left side to the desired Widget Area on the right side of the page.</li>
+        <img src="assets/img/footer-widgets.gif" />
+        <p>In our case we added a Social Icons widget to the first column in Footer. You can read more about Widgets <a href="#widgets">here</a>.</p>
+        <p>You can also add them by clicking on the Widget and then selecting the Widget Area from the dropdown menu.</p>
+        <img src="assets/img/footer-widgets1.gif" />
+    </ul>
+    <strong>Note: numbers in the Footer Widget area name are representing the column inside the Footer. Read more about how to specify footer columns inside <a href="#footer-style">General Settings -> Page Setup</a></strong>
+    <p>You can set up the footer in the same part as Widgets, Appearance → Widgets. The only difference is you don't drag and drop in the sidebar boxes, but you add them in Footer Widget Areas. In each column you can add what you like, as the widgets look different in the footer than in the sidebars.</p>
+</section>
+
+        <!-- Bootstrap -->
+        <section>
+    <h2>Bootstrap</h2>
+    <p>This theme has been built using <a href="http://getbootstrap.com/">Twitter Bootstrap</a>. We did not use every aspect of it, but only include parts of it. For example, we have removed the default Glyphicons font icons and include Font Awesome instead.</p>
+    <p>If you want to use a feature of Bootstrap that we did not include, then go to <i>assets/sass/bootstrap.scss</i> and uncomment the import functions.</p>
+
+    <p>Many elements used in this theme are almost identical to Bootstrap components, so you check their documentation if you need extra help or check if they have extra functionality that is outside the scope of our theme.</p>
+</section>
+        <!-- Credits -->
+        <section>
+    <h2>Sources and Credits</h2>
+
+    <ul>
+        <li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+        <li><a href="http://gmap3.net/" target="_blank">gmap3</a></li>
+        <li><a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a></li>
+        <li><a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a></li>
+        <li><a href="http://sass-lang.com/" target="_blank">Sass</a></li>
+        <li><a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/" ="_blank">jQuery Parallax</a></li>
+        <li><a href="http://www.depositphotos.com/" target="_blank">Depositphotos</a></li>
+        <li><a href="http://www.photodune.net/" target="_blank">Photodune</a></li>
+    </ul>
+</section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/prism.js"></script>
+</body>
+</html>

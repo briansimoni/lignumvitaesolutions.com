@@ -1,0 +1,19 @@
+.sbg-table {
+	margin: 15px 0 20px 0;
+	max-width: 700px;
+}
+
+.remove-sidebar {
+	background: none;
+	border: none;
+	color: #a00;
+	cursor: pointer;
+	padding: 0;
+}
+
+.remove-sidebar:hover,
+.remove-sidebar:focus {
+	color: red;
+	text-decoration: none;
+	border: none;
+}

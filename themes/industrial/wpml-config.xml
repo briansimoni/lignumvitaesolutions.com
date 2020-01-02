@@ -1,0 +1,13 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">team</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">portfolio_category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="anps_menu_button_text"/>
+		<key name="anps_menu_button_url"/>
+    </admin-texts>
+</wpml-config>

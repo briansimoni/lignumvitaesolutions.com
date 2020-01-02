@@ -1,0 +1,158 @@
+/*!
+ * Iconpicker v1.0.0
+ *
+ * Author: Anpsthemes
+ */
+
+.anps-iconpicker-list-wrapper {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: none;
+    left: 50px;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    z-index: 999999;
+}
+
+.anps-iconpicker-list {
+    max-height: 225px;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+
+.anps-iconpicker-list:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.anps-iconpicker-list li {
+    list-style: none;
+    float: left;
+    height: 47px;
+    margin-bottom: 0;
+    position: relative;
+    width: 16.66666%;
+}
+
+.anps-iconpicker-list .anps-selected,
+.anps-iconpicker-list li:hover {
+    background-color: #00a0d2;
+    color: #fff;
+}
+
+.anps-iconpicker-list li:hover {
+    cursor: pointer;
+}
+
+body .anps-iconpicker-list .anps-selected {
+    cursor: default;
+}
+
+.anps-iconpicker-list i {
+    font-size: 21px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.anps-iconpicker-list span { display: none; }
+
+.anps-iconpicker-search {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.anps-iconpicker-search input {
+    box-sizing: border-box;
+    padding: 7px 12px;
+    width: 100%;
+}
+
+.anps-iconpicker {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    padding-left: 32px;
+    position: relative;
+}
+
+.anps-iconpicker input { display: none; }
+
+.anps-iconpicker button {
+    background-color: #fff;
+    border: none;
+    border-left: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 15px;
+    outline: none;
+}
+
+.anps-iconpicker button:hover,
+.anps-iconpicker button:focus,
+.anps-current-picker button {
+    background-color: #f1f1f1;
+}
+
+.anps-current-picker {
+    border-color: #aaa;
+}
+
+.anps-iconpicker i {
+    color: #333;
+    left: 0;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+}
+
+/* Anps Repeater */
+
+.anps-repeat-item {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin-bottom: 49px;
+    margin-top: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.anps-repeat-item .anps-repeat-add {
+    display: none;
+}
+
+.anps-repeat-item:last-of-type .anps-repeat-add {
+    display: inline-block;
+}
+
+.anps-repeat-item:only-of-type .anps-repeat-remove {
+    display: none;
+}
+
+.anps-repeat-buttons {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-top: none;
+    position: absolute;
+    right: -1px;
+    text-align: center;
+    top: 100%;
+    width: 85px;
+}
+
+.anps-repeat-buttons button {
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 24px;
+}

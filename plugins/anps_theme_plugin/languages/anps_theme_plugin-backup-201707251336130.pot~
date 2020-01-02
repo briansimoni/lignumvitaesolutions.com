@@ -1,0 +1,1447 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-25 13:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: helpers.php:41 helpers.php:56
+msgid "All"
+msgstr ""
+
+#: portfolio.php:7
+msgid "Categories"
+msgstr ""
+
+#: portfolio.php:16 portfolio.php:17 shortcodes/portfolio/vc_map.php:3
+msgid "Portfolio"
+msgstr ""
+
+#: portfolio.php:18
+msgid "View portfolio"
+msgstr ""
+
+#: portfolio.php:19
+msgid "Search portfolio"
+msgstr ""
+
+#: portfolio.php:20
+msgid "No portfolio found"
+msgstr ""
+
+#: team.php:18 team.php:19 shortcodes/team/vc_map.php:3
+msgid "Team"
+msgstr ""
+
+#: team.php:20
+msgid "View team"
+msgstr ""
+
+#: team.php:21
+msgid "Search team"
+msgstr ""
+
+#: team.php:22
+msgid "No team found"
+msgstr ""
+
+#: shortcodes/vc_params.php:19
+msgid "Anps button styles"
+msgstr ""
+
+#: shortcodes/vc_params.php:40
+msgid "Button shadow"
+msgstr ""
+
+#: views/admin_view.php:11
+msgid "Plugin Options"
+msgstr ""
+
+#: views/admin_view.php:20 views/google_analytics_view.php:11
+msgid "Google analytics"
+msgstr ""
+
+#: views/admin_view.php:25 views/google_maps_view.php:11
+msgid "Google Maps"
+msgstr ""
+
+#: views/google_analytics_view.php:16 views/google_maps_view.php:37
+msgid "Save"
+msgstr ""
+
+#: views/google_analytics_view.php:17 views/google_maps_view.php:38
+msgid "Save all changes"
+msgstr ""
+
+#: views/google_maps_view.php:16
+msgid "How to Generate an API Key for Google Maps"
+msgstr ""
+
+#: views/google_maps_view.php:21
+msgid "Go to the"
+msgstr ""
+
+#: views/google_maps_view.php:22
+msgid "Create or select a project."
+msgstr ""
+
+#: views/google_maps_view.php:23
+msgid "Click Continue to enable the API and any related services."
+msgstr ""
+
+#: views/google_maps_view.php:24
+msgid ""
+"On the Credentials page, get a Browser key (and set the API Credentials)."
+msgstr ""
+
+#: views/google_maps_view.php:25
+msgid "Note: If you have an existing Browser key, you may use that key."
+msgstr ""
+
+#: views/google_maps_view.php:26
+msgid ""
+"For the Accept requests from these HTTP referrers option, add your domain. "
+"An example for adding anpsthemes.com:"
+msgstr ""
+
+#: views/google_maps_view.php:33
+msgid ""
+"You may also need to enable the Google Maps APIs. Inside the Google API "
+"console navigate to Library and under Google Maps APIs enable Google Maps "
+"JavaScript API and Google Maps Embed API."
+msgstr ""
+
+#: views/google_maps_view.php:35
+#, php-format
+msgid "For more information take a look at %sour blog post%s."
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:3
+msgid "Alert"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:10 shortcodes/appointment/vc_map.php:28
+#: shortcodes/button/vc_map.php:10 shortcodes/contact_info/vc_map.php:40
+#: shortcodes/contact_info_card/vc_map.php:71 shortcodes/counter/vc_map.php:10
+#: shortcodes/cta/vc_map.php:10 shortcodes/download/vc_map.php:10
+#: shortcodes/icon/vc_map.php:16 shortcodes/info/vc_map.php:93
+#: shortcodes/info/vc_map.php:138 shortcodes/info/vc_map.php:220
+#: shortcodes/list/vc_map.php:57 shortcodes/team_with_description/vc_map.php:26
+msgid "Text"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:13
+msgid "Enter alert text."
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:18 shortcodes/icon/vc_map.php:3
+#: shortcodes/info/vc_map.php:121
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:21 shortcodes/google_maps/vc_map.php:107
+#: shortcodes/info/vc_map.php:32
+msgid "Info"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:22
+msgid "Danger"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:23
+msgid "Warning"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:24
+msgid "Success"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:25
+msgid "Useful"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:26 shortcodes/cta/vc_map.php:51
+msgid "Normal"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:27
+msgid "Info style 2"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:28
+msgid "Danger style 2"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:29
+msgid "Warning style 2"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:30
+msgid "Success style 2"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:31
+msgid "Useful style 2"
+msgstr ""
+
+#: shortcodes/alert/vc_map.php:32
+msgid "Normal style 2"
+msgstr ""
+
+#: shortcodes/appointment/vc_map.php:3
+msgid "Appointment"
+msgstr ""
+
+#: shortcodes/appointment/vc_map.php:10 shortcodes/error404/vc_map.php:22
+#: shortcodes/featured_content/vc_map.php:16
+#: shortcodes/featured_horizontal_content/vc_map.php:16
+#: shortcodes/logos/vc_map.php:70
+msgid "Image"
+msgstr ""
+
+#: shortcodes/appointment/vc_map.php:16 shortcodes/google_maps/vc_map.php:86
+msgid "Location"
+msgstr ""
+
+#: shortcodes/appointment/vc_map.php:22 shortcodes/blog/vc_map.php:30
+#: shortcodes/contact_info_card/vc_map.php:64 shortcodes/error404/vc_map.php:10
+#: shortcodes/featured_content/vc_map.php:10
+#: shortcodes/featured_horizontal_content/vc_map.php:10
+#: shortcodes/heading/vc_map.php:10 shortcodes/icon/vc_map.php:10
+#: shortcodes/portfolio/vc_map.php:43 shortcodes/recent_blog/vc_map.php:10
+#: shortcodes/recent_portfolio/vc_map.php:10 shortcodes/subscribe/vc_map.php:10
+#: shortcodes/team_with_description/vc_map.php:18
+#: shortcodes/timeline/vc_map.php:49 shortcodes/twitter/vc_map.php:18
+msgid "Title"
+msgstr ""
+
+#: shortcodes/appointment/vc_map.php:34
+msgid "Contact form"
+msgstr ""
+
+#: shortcodes/blog/shortcode.php:37
+msgid "Previous "
+msgstr ""
+
+#: shortcodes/blog/shortcode.php:38
+msgid "Next"
+msgstr ""
+
+#: shortcodes/blog/shortcode.php:82
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:3
+msgid "Blog"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:10
+msgid "Blog categories"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:12
+msgid "Select blog categories."
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:17
+msgid "Posts per page"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:19
+msgid "Enter post per page."
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:24 shortcodes/portfolio/vc_map.php:41
+msgid "Order By"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:27 shortcodes/blog/vc_map.php:43
+#: shortcodes/list/vc_map.php:31 shortcodes/portfolio/vc_map.php:43
+#: shortcodes/portfolio/vc_map.php:52 shortcodes/recent_blog/vc_map.php:20
+#: shortcodes/social_icons/vc_map.php:31
+msgid "Default"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:28 shortcodes/portfolio/vc_map.php:43
+msgid "Date"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:29 shortcodes/heading/vc_map.php:54
+#: shortcodes/portfolio/vc_map.php:43
+msgid "Id"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:31 shortcodes/portfolio/vc_map.php:43
+msgid "Name"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:32
+msgid "Author"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:34
+msgid "Order by."
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:40 shortcodes/portfolio/vc_map.php:50
+msgid "Order"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:44 shortcodes/portfolio/vc_map.php:52
+msgid "ASC"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:45 shortcodes/portfolio/vc_map.php:52
+msgid "DESC"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:52
+msgid "Columns"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:55 shortcodes/portfolio/vc_map.php:60
+msgid "1 column"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:56 shortcodes/portfolio/vc_map.php:60
+msgid "2 columns"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:57
+msgid "3 columns"
+msgstr ""
+
+#: shortcodes/blog/vc_map.php:58
+msgid "4 columns"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:3 shortcodes/info/vc_map.php:203
+msgid "Button"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:12 shortcodes/cta/vc_map.php:43
+#: shortcodes/info/vc_map.php:240
+#: shortcodes/team_with_description/vc_map.php:35
+msgid "Enter button text."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:17 shortcodes/featured_content/vc_map.php:43
+#: shortcodes/featured_horizontal_content/vc_map.php:29
+#: shortcodes/icon/vc_map.php:22
+msgid "Link"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:20
+msgid "Enter button link."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:25 shortcodes/cta/vc_map.php:32
+#: shortcodes/download/vc_map.php:44 shortcodes/icon/vc_map.php:28
+#: shortcodes/info/vc_map.php:252 shortcodes/social_icons/vc_map.php:73
+#: shortcodes/team_with_description/vc_map.php:48
+msgid "Target"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:28
+msgid "Enter button target."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:33 shortcodes/heading/vc_map.php:27
+msgid "Size"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:36
+msgid "Small"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:37
+msgid "Medium"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:38
+msgid "Large"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:40
+msgid "Enter button size."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:46 shortcodes/featured_content/vc_map.php:91
+#: shortcodes/google_maps/vc_map.php:67 shortcodes/logos/vc_map.php:38
+#: shortcodes/quote/vc_map.php:16 shortcodes/recent_blog/vc_map.php:18
+#: shortcodes/social_icons/vc_map.php:28 shortcodes/testimonials/vc_map.php:35
+msgid "Style"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:49
+msgid "Normal button"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:50
+msgid "Button with gradient"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:51
+msgid "Dark button"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:52
+msgid "Light button"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:53
+msgid "Minimal button"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:55
+msgid "Enter button style."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:61 shortcodes/heading/vc_map.php:70
+msgid "Color"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:63
+msgid "Enter button text color."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:68
+msgid "Background"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:70
+msgid "Enter button background color."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:75 shortcodes/info/vc_map.php:61
+msgid "Hover color"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:77
+msgid "Enter button text hover color."
+msgstr ""
+
+#: shortcodes/button/vc_map.php:82
+msgid "Hover background"
+msgstr ""
+
+#: shortcodes/button/vc_map.php:84
+msgid "Enter button background hover color."
+msgstr ""
+
+#: shortcodes/contact_info/vc_map.php:18
+msgid "Contact info"
+msgstr ""
+
+#: shortcodes/contact_info/vc_map.php:31
+msgid "Contact info item"
+msgstr ""
+
+#: shortcodes/contact_info/vc_map.php:42
+msgid "Enter text."
+msgstr ""
+
+#: shortcodes/contact_info/vc_map.php:47 shortcodes/cta/vc_map.php:24
+#: shortcodes/download/vc_map.php:36 shortcodes/info/vc_map.php:245
+#: shortcodes/logos/vc_map.php:76 shortcodes/social_icons/vc_map.php:54
+msgid "Url"
+msgstr ""
+
+#: shortcodes/contact_info/vc_map.php:49 shortcodes/info/vc_map.php:247
+#: shortcodes/social_icons/vc_map.php:56
+msgid "Enter url."
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:18
+msgid "Contact info card"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:28
+#: shortcodes/recent_blog/vc_map.php:34
+#: shortcodes/recent_portfolio/vc_map.php:26
+msgid "Number in row"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:31
+#: shortcodes/portfolio/vc_map.php:20 shortcodes/recent_blog/vc_map.php:36
+#: shortcodes/recent_portfolio/vc_map.php:28 shortcodes/team/vc_map.php:15
+msgid "3"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:32
+#: shortcodes/portfolio/vc_map.php:20 shortcodes/team/vc_map.php:14
+msgid "2"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:43
+msgid "Contact info card item"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:66
+msgid "Enter card title."
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:73
+msgid "Enter card text."
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:78 shortcodes/counter/vc_map.php:38
+#: shortcodes/recent_portfolio/vc_map.php:50
+#: shortcodes/team_with_description/vc_map.php:55
+#: shortcodes/twitter/vc_map.php:42
+msgid "Title color"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:84
+#: shortcodes/team_with_description/vc_map.php:61
+msgid "Description color"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:90
+#: shortcodes/recent_portfolio/vc_map.php:57
+msgid "Background color"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:96
+msgid "Icon color"
+msgstr ""
+
+#: shortcodes/contact_info_card/vc_map.php:102
+msgid "Icon background color"
+msgstr ""
+
+#: shortcodes/counter/vc_map.php:3
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/counter/vc_map.php:13
+msgid "Enter counter text."
+msgstr ""
+
+#: shortcodes/counter/vc_map.php:18
+msgid "Max number"
+msgstr ""
+
+#: shortcodes/counter/vc_map.php:21
+msgid "Enter max number."
+msgstr ""
+
+#: shortcodes/counter/vc_map.php:26
+msgid "Number color"
+msgstr ""
+
+#: shortcodes/counter/vc_map.php:32 shortcodes/info/vc_map.php:67
+msgid "Divider color"
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:3
+msgid "Call to Action"
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:13 shortcodes/download/vc_map.php:13
+msgid "Enter content text."
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:18 shortcodes/download/vc_map.php:30
+msgid "Content color"
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:27 shortcodes/download/vc_map.php:39
+#: shortcodes/team_with_description/vc_map.php:43
+msgid "Enter url for button."
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:35 shortcodes/info/vc_map.php:255
+#: shortcodes/social_icons/vc_map.php:76
+msgid "Enter target."
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:40 shortcodes/featured_content/vc_map.php:73
+#: shortcodes/info/vc_map.php:238
+#: shortcodes/team_with_description/vc_map.php:32
+msgid "Button text"
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:48
+msgid "Button Type"
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:52
+msgid "Dark"
+msgstr ""
+
+#: shortcodes/cta/vc_map.php:53
+msgid "Light"
+msgstr ""
+
+#: shortcodes/download/vc_map.php:3
+msgid "Download"
+msgstr ""
+
+#: shortcodes/download/vc_map.php:18
+msgid "Content Icon"
+msgstr ""
+
+#: shortcodes/download/vc_map.php:57
+msgid "Download text"
+msgstr ""
+
+#: shortcodes/download/vc_map.php:60
+msgid "Enter download text for button."
+msgstr ""
+
+#: shortcodes/error404/vc_map.php:3
+msgid "Error 404"
+msgstr ""
+
+#: shortcodes/error404/vc_map.php:16 shortcodes/heading/vc_map.php:18
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/featured_content/shortcode.php:8 shortcodes/icon/shortcode.php:26
+#: shortcodes/portfolio/shortcode.php:117
+msgid "Read more"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:3
+msgid "Featured content"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:22
+msgid "Video"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:23
+msgid "Enter youtube or vimeo video url. Example: https://vimeo.com/146064760"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:29
+msgid "Open in lightbox"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:31
+msgid "Open image or video in fullscreen lightbox"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:36
+#: shortcodes/featured_horizontal_content/vc_map.php:22
+#: shortcodes/table/vc_map.php:84 shortcodes/timeline/vc_map.php:56
+msgid "Content"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:38
+#: shortcodes/featured_horizontal_content/vc_map.php:24
+msgid "Enter content of shortcode."
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:61
+msgid "Custom Icon"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:67
+msgid "Custom Icon (hover)"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:79
+msgid "position image above? (use below slider)"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:85
+msgid "Exposed content"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:93
+msgid "default"
+msgstr ""
+
+#: shortcodes/featured_content/vc_map.php:93
+msgid "Simple"
+msgstr ""
+
+#: shortcodes/featured_horizontal_content/vc_map.php:3
+msgid "Featured horizontal content"
+msgstr ""
+
+#: shortcodes/gallery_simple/vc_map.php:3
+msgid "Gallery"
+msgstr ""
+
+#: shortcodes/gallery_simple/vc_map.php:10
+#: shortcodes/gallery_slider/vc_map.php:10
+msgid "Images"
+msgstr ""
+
+#: shortcodes/gallery_simple/vc_map.php:16 shortcodes/portfolio/vc_map.php:18
+msgid "Show in row"
+msgstr ""
+
+#: shortcodes/gallery_slider/vc_map.php:3
+msgid "Gallery slider"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:18
+msgid "Google maps"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:29
+msgid "Zoom"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:32
+msgid "Enter zoom."
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:37
+msgid "Map Type"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:40
+msgid "Road map"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:41
+msgid "Satellite"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:42
+msgid "Hybrid"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:43
+msgid "Terrain"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:45
+msgid "Choose between four types of maps."
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:51
+msgid "Height"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:54
+msgid "Enter height in px."
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:59
+msgid "Disable scrolling"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:61
+msgid "Disable scrolling and dragging (mobile)."
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:69
+msgid "Custom styles"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:77
+msgid "Google maps item"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:88
+msgid "Enter address."
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:93
+msgid "Show marker at center"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:100
+msgid "Pin"
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:102
+msgid "Select or upload pin icon."
+msgstr ""
+
+#: shortcodes/google_maps/vc_map.php:110
+msgid "Enter info about location."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:3 shortcodes/info/vc_map.php:86
+#: shortcodes/info/vc_map.php:131 shortcodes/info/vc_map.php:213
+msgid "Heading"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:13 shortcodes/timeline/vc_map.php:51
+msgid "Enter title."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:21
+msgid "Enter subtitle."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:29
+msgid "H1"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:29
+msgid "H2"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:29
+msgid "H3"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:29
+msgid "H4"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:29
+msgid "H5"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:30
+msgid "Enter title size."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:36
+msgid "Heading class"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:38
+msgid "Middle heading"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:38
+msgid "Content heading"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:38
+msgid "Left heading"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:39
+msgid "Choose heading."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:45
+msgid "Heading style"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:47 shortcodes/logos/vc_map.php:41
+#: shortcodes/quote/vc_map.php:18 shortcodes/testimonials/vc_map.php:38
+msgid "Style 1"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:47 shortcodes/logos/vc_map.php:42
+#: shortcodes/quote/vc_map.php:18 shortcodes/testimonials/vc_map.php:39
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:47 shortcodes/logos/vc_map.php:43
+#: shortcodes/testimonials/vc_map.php:40
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:47
+msgid "Style 4"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:48
+msgid "Choose heading style."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:57
+msgid "Enter id."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:62
+msgid "Class"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:65
+msgid "Enter class."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:72
+msgid "Heading text color."
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:77
+msgid "Subtitle Color"
+msgstr ""
+
+#: shortcodes/heading/vc_map.php:79
+msgid "Heading subtitle color."
+msgstr ""
+
+#: shortcodes/icon/vc_map.php:47
+msgid "Custom image icon"
+msgstr ""
+
+#: shortcodes/icon/vc_map.php:49
+msgid "Upload a custom image icon."
+msgstr ""
+
+#: shortcodes/icon/vc_map.php:54
+msgid "Position"
+msgstr ""
+
+#: shortcodes/icon/vc_map.php:57
+msgid "Left"
+msgstr ""
+
+#: shortcodes/icon/vc_map.php:58
+msgid "Right"
+msgstr ""
+
+#: shortcodes/icon/vc_map.php:59
+msgid "Center"
+msgstr ""
+
+#: shortcodes/icon/vc_map.php:66
+msgid "Icon size"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:43
+msgid "Heading color"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:49 shortcodes/twitter/vc_map.php:48
+msgid "Text color"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:55
+msgid "Primary color"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:76
+msgid "Icon with text"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:88 shortcodes/info/vc_map.php:133
+#: shortcodes/info/vc_map.php:215
+msgid "Enter heading."
+msgstr ""
+
+#: shortcodes/info/vc_map.php:95 shortcodes/info/vc_map.php:140
+#: shortcodes/info/vc_map.php:222
+msgid "Enter text"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:111
+msgid "Icon text"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:113
+msgid "Enter icon text (eg. phone number)."
+msgstr ""
+
+#: shortcodes/info/vc_map.php:260
+msgid "Button text color"
+msgstr ""
+
+#: shortcodes/info/vc_map.php:266
+msgid "Button text hover color"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:18
+msgid "List"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:28
+msgid "List icon"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:32
+msgid "Circle arrow"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:33
+msgid "Triangle"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:34
+msgid "Hand"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:35
+msgid "Square"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:36
+msgid "Arrow"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:37
+msgid "Circle"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:38
+msgid "Circle check"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:39
+msgid "Select type."
+msgstr ""
+
+#: shortcodes/list/vc_map.php:48
+msgid "List item"
+msgstr ""
+
+#: shortcodes/list/vc_map.php:59
+msgid "Enter list text."
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:18
+msgid "Logos"
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:30
+msgid "Logos in row"
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:32
+msgid "Logos in one row."
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:45
+msgid "Select logos style."
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:54
+msgid "Logo"
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:63
+msgid "Image url"
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:65 shortcodes/testimonials/vc_map.php:89
+msgid "Enter image url."
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:78
+msgid "Logo url."
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:83
+msgid "Alt"
+msgstr ""
+
+#: shortcodes/logos/vc_map.php:85
+msgid "Logo alt."
+msgstr ""
+
+#: shortcodes/portfolio/shortcode.php:78
+#: shortcodes/recent_portfolio/shortcode.php:88
+msgid "All projects"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:10 shortcodes/recent_portfolio/vc_map.php:18
+msgid "Number of portfolio posts"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:13
+msgid "Enter number of portfolio posts."
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:20 shortcodes/team/vc_map.php:16
+msgid "6"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:20 shortcodes/recent_blog/vc_map.php:36
+#: shortcodes/recent_portfolio/vc_map.php:28 shortcodes/team/vc_map.php:13
+msgid "4"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:26 shortcodes/recent_portfolio/vc_map.php:36
+msgid "Portfolio categories"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:28 shortcodes/recent_portfolio/vc_map.php:38
+msgid "Select portfolio categories."
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:33
+msgid "Filter"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:35
+msgid "On"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:35
+msgid "Off"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:44
+msgid "Enter order by."
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:58
+msgid "Mobile view"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:66 shortcodes/recent_portfolio/vc_map.php:64
+msgid "Item background color"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:68 shortcodes/portfolio/vc_map.php:75
+#: shortcodes/portfolio/vc_map.php:82 shortcodes/recent_portfolio/vc_map.php:52
+#: shortcodes/recent_portfolio/vc_map.php:59
+#: shortcodes/recent_portfolio/vc_map.php:66
+#: shortcodes/recent_portfolio/vc_map.php:73
+#: shortcodes/recent_portfolio/vc_map.php:80
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:73 shortcodes/recent_portfolio/vc_map.php:71
+msgid "Item text color"
+msgstr ""
+
+#: shortcodes/portfolio/vc_map.php:80 shortcodes/recent_portfolio/vc_map.php:78
+msgid "Item title color"
+msgstr ""
+
+#: shortcodes/quote/vc_map.php:3
+msgid "Quote"
+msgstr ""
+
+#: shortcodes/quote/vc_map.php:10
+msgid "Quote text"
+msgstr ""
+
+#: shortcodes/recent_blog/shortcode.php:113
+msgid "comments"
+msgstr ""
+
+#: shortcodes/recent_blog/shortcode.php:117
+#: shortcodes/recent_portfolio/shortcode.php:127
+msgid "Read More"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:3
+msgid "Recent blog"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:13
+msgid "Recent blog title."
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:20
+msgid "Minimal light"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:20
+msgid "Minimal dark"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:26
+msgid "Number of blog posts"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:29
+msgid ""
+"Enter number of recent blog posts. If you want to display all posts, leave "
+"this field empty."
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:38
+#: shortcodes/recent_portfolio/vc_map.php:30
+msgid "Select number of items in row."
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:44
+msgid "Slider"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:46
+msgid "Enable"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:46
+msgid "Disable"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:48
+msgid "Enable/disable slider."
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:54
+msgid "Content length"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:57
+msgid "Content length (default 130)."
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:62
+msgid "Category id/s"
+msgstr ""
+
+#: shortcodes/recent_blog/vc_map.php:65
+msgid "Enter category id/s. Example: 1,2,3"
+msgstr ""
+
+#: shortcodes/recent_portfolio/vc_map.php:3
+msgid "Recent portfolio"
+msgstr ""
+
+#: shortcodes/recent_portfolio/vc_map.php:13
+msgid "Recent portfolio title."
+msgstr ""
+
+#: shortcodes/recent_portfolio/vc_map.php:21
+msgid ""
+"Enter number of recent portfolio posts. If you want to display all posts, "
+"leave this field empty."
+msgstr ""
+
+#: shortcodes/recent_portfolio/vc_map.php:43
+msgid "Hide filter"
+msgstr ""
+
+#: shortcodes/recent_portfolio/vc_map.php:45
+msgid "Show/hide portfolio categories filter"
+msgstr ""
+
+#: shortcodes/social_icons/vc_map.php:18
+msgid "Social icons"
+msgstr ""
+
+#: shortcodes/social_icons/vc_map.php:32
+msgid "Minimal"
+msgstr ""
+
+#: shortcodes/social_icons/vc_map.php:33
+msgid "Border"
+msgstr ""
+
+#: shortcodes/social_icons/vc_map.php:35
+msgid "Select style."
+msgstr ""
+
+#: shortcodes/social_icons/vc_map.php:44
+msgid "Social icon item"
+msgstr ""
+
+#: shortcodes/subscribe/vc_map.php:3
+msgid "Subscribe"
+msgstr ""
+
+#: shortcodes/subscribe/vc_map.php:16
+msgid "Description"
+msgstr ""
+
+#: shortcodes/subscribe/vc_map.php:22
+msgid "Title & placeholder color"
+msgstr ""
+
+#: shortcodes/subscribe/vc_map.php:28
+msgid "Input field background color"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:13 shortcodes/table/vc_map.php:61
+msgid "Table heading"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:15 shortcodes/table/vc_map.php:61
+msgid "Table cell"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:50 shortcodes/table/vc_map.php:52
+msgid "Remove row"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:58
+msgid "Remove cell"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:67
+msgid "Add cells"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:70
+msgid "Add row"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:77
+msgid "Table"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:91
+msgid "Striped"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:97
+msgid "Bordered"
+msgstr ""
+
+#: shortcodes/table/vc_map.php:103
+msgid "Table heading style 2"
+msgstr ""
+
+#: shortcodes/team/vc_map.php:10
+msgid "Number of items in column"
+msgstr ""
+
+#: shortcodes/team/vc_map.php:18
+msgid "Enter number of team item in column."
+msgstr ""
+
+#: shortcodes/team/vc_map.php:24
+msgid "Number of team members"
+msgstr ""
+
+#: shortcodes/team/vc_map.php:27
+msgid "Enter number of team members (if you want all than enter -1)."
+msgstr ""
+
+#: shortcodes/team/vc_map.php:32 shortcodes/team_with_description/vc_map.php:10
+msgid "Team member id/s"
+msgstr ""
+
+#: shortcodes/team/vc_map.php:35
+msgid "Enter team member id/s. Example: 1,2,3"
+msgstr ""
+
+#: shortcodes/team_with_description/vc_map.php:3
+msgid "Team with description"
+msgstr ""
+
+#: shortcodes/team_with_description/vc_map.php:13
+msgid "Enter team member id/s. Example: 1,2,3 up to 3 members."
+msgstr ""
+
+#: shortcodes/team_with_description/vc_map.php:21
+msgid "Enter content title."
+msgstr ""
+
+#: shortcodes/team_with_description/vc_map.php:40
+msgid "Button url"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:18
+msgid "Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:28
+msgid "title"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:30
+msgid "Enter the title."
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:50
+msgid "Testimonial item"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:59
+msgid "Testimonial text"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:61
+msgid "Enter user testimonial text"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:66
+msgid "User name"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:68
+msgid "Enter user name"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:73
+msgid "Job position"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:75
+msgid "Enter optional job position"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:80
+msgid "User image"
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:82
+msgid "Choose image."
+msgstr ""
+
+#: shortcodes/testimonials/vc_map.php:87
+msgid "User image url"
+msgstr ""
+
+#: shortcodes/timeline/vc_map.php:18
+msgid "Timeline"
+msgstr ""
+
+#: shortcodes/timeline/vc_map.php:32
+msgid "Timeline item"
+msgstr ""
+
+#: shortcodes/timeline/vc_map.php:41
+msgid "Year"
+msgstr ""
+
+#: shortcodes/timeline/vc_map.php:44
+msgid "Enter year number."
+msgstr ""
+
+#: shortcodes/timeline/vc_map.php:58
+msgid "Enter content."
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:4
+msgid "Twitter"
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:11
+msgid "Slug"
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:13
+msgid "It should be unique value."
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:21
+msgid "Enter twitter title."
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:26
+msgid "Number of tweets"
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:29
+msgid "Enter number of tweets to display. (default 3)"
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:34
+msgid "Twitter username"
+msgstr ""
+
+#: shortcodes/twitter/vc_map.php:37
+msgid "Enter twitter username."
+msgstr ""
+
+#. Name of the plugin
+msgid "Anps Theme plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid "Anps theme plugin"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.anpsthemes.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Anpsthemes"
+msgstr ""
