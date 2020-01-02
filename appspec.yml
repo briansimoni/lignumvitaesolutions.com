@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /themes
+    destination: /home/bitnami/temp
+hooks:
+  BeforeInstall:
+    - location: scripts/date.sh
+      timeout: 10
+      runas: root
